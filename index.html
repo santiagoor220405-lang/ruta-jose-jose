@@ -77,6 +77,10 @@ h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spa
 .auto input{width:18px;height:18px;accent-color:#f3c565}
 .toast{margin-top:8px;font-size:14px;color:#f3c565;min-height:20px}
 .toast a{color:#fff}
+.desc{margin-top:12px;padding:12px 14px;border-left:3px solid #f3c565;background:rgba(243,197,101,.07);border-radius:0 8px 8px 0}
+.desc p{margin:0;font-size:15px;line-height:1.55;color:#f0e2d6}
+.desc .tip{margin-top:8px;font-size:14px;color:#e9c98f}
+.desc .tip b{color:#f3c565;font-weight:600}
 .pp{width:56px;height:56px;padding:0;justify-content:center;background:#f3c565;color:#2b0a12;font-size:22px}
 .pp:hover{background:#ffd884}
 .prog{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:13px;color:#d9b98a;font-variant-numeric:tabular-nums}
@@ -97,10 +101,6 @@ h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spa
 body.has-mini{padding-bottom:84px}
 
 /* guide */
-.how{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
-.how p{margin:0;font-size:15px;color:var(--mute)}
-.how b{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}
-.why{margin:22px 0 0;color:var(--mute);font-size:15px;max-width:72ch}
 
 /* stages */
 nav.st{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px;padding-top:calc(10px + env(safe-area-inset-top,0px))}
@@ -149,10 +149,10 @@ footer{color:var(--mute);font-size:13px;border-top:1px solid var(--line);margin-
 footer p{margin:0 0 8px}
 footer a{color:var(--rose)}
 
-@media(max-width:960px){.deck{grid-template-columns:minmax(0,1fr)}.how{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:960px){.deck{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:700px){.photos img{width:100%;height:56%;top:auto;bottom:0}.hero .wrap{justify-content:flex-start;min-height:0;padding-bottom:min(52vw,260px)}.photos img:nth-child(1){object-position:30% 0%}.photos img:nth-child(2){object-position:50% 5%}.hero::before{background:linear-gradient(180deg,#3a0e18 0%,#3a0e18 42%,rgba(58,14,24,.55) 70%,rgba(58,14,24,.75) 100%)}}
 @media(max-width:760px){.albums,.extra{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:520px){.how{grid-template-columns:minmax(0,1fr)}ol.songs{grid-template-columns:minmax(0,1fr);grid-auto-flow:row}.shelf{gap:4px}.stat{gap:20px}}
+@media(max-width:520px){ol.songs{grid-template-columns:minmax(0,1fr);grid-auto-flow:row}.shelf{gap:4px}.stat{gap:20px}}
 </style>
 </head>
 <body>
@@ -199,6 +199,10 @@ footer a{color:var(--rose)}
         </div>
         <div class="heard" id="npHeard"></div>
       </div>
+      <div class="desc" id="desc" hidden>
+        <p id="dText"></p>
+        <p class="tip" id="dTip"></p>
+      </div>
       <div class="ctl">
         <button class="btn ic" id="npPrev" type="button" aria-label="Canción anterior">⏮</button>
         <button class="btn pp" id="npPlay" type="button" aria-label="Reproducir">▶</button>
@@ -214,19 +218,6 @@ footer a{color:var(--rose)}
       <div class="toast" id="toast"></div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="band" style="padding-bottom:8px">
-  <div class="wrap">
-    <h2 style="font-size:30px;margin-bottom:16px">Cómo usar esta ruta</h2>
-    <div class="how">
-      <p><b>1. Un álbum a la vez, completo y en orden.</b>Las canciones están en el orden original del disco, tal como José José y su productor las ordenaron. No uses aleatorio.</p>
-      <p><b>2. Dos vueltas por álbum.</b>La primera, solo escuchando. La segunda, con la letra: anota quién la compuso y la frase que te quieras llevar para la vida.</p>
-      <p><b>3. Marca cada canción.</b>Se marca sola cuando termina en el reproductor, o puedes marcarla tú. Al completar un disco, el álbum queda escuchado. Las canciones con <span class="star">★</span> son las que ya conoces: fíjate cómo suenan dentro de su disco.</p>
-      <p><b>4. Dale play y déjalo correr.</b>Al terminar una canción sigue la próxima del disco, y al acabar el disco pasa al siguiente de la ruta. Mientras bajas por la lista, el reproductor te acompaña abajo. Un disco dura entre 30 y 45 minutos.</p>
-    </div>
-    <p class="why">¿Por qué este orden y no el cronológico? Porque empezar por sus discos de 1969–1976 puede desanimarte: son buenos, pero todavía se está buscando. Primero conoces su esplendor y luego vuelves al origen con el oído entrenado para notar cómo creció.</p>
   </div>
 </section>
 
@@ -268,6 +259,7 @@ const STAGES = [
   {id:"etapa-6",n:"Etapa 6",t:"La última etapa",y:"1992–2001",d:"Su voz ya no es la misma y eso también se escucha. Entender este cierre es parte de conocerlo de verdad.",a:[26,27,28,29,30]},
   {id:"extra",n:"Extra",t:"Inéditos y discos especiales",y:"",d:"No forman parte de la ruta principal, pero un fan destacado los conoce.",a:[31]}
 ];
+const DESC = {}; // "album-song" -> [texto, "fíjate en"]
 const NOTES = ["Su primer gran éxito en México y Latinoamérica.","El disco del festival de 1970. «El triste» es de Roberto Cantoral; quedó 3.º pero lo consagró.","Grabado en Londres; su primer disco con Ariola. Debuta como compositor con «Si alguna vez».","","Con canciones de Juan Gabriel y José María Napoleón; incluye una versión de «Just the Way You Are» de Billy Joel.","Coproducido con Camilo Sesto: tu puente con uno de tus favoritos.","Grabado en Los Ángeles. «Insaciable amante» es de Camilo Sesto.","Boleros clásicos con su sello; la única canción nueva es «Polvo enamorado».","Coproducido con Rafael Pérez Botija. Aquí están «Preso» y «Me basta».","Con Rafael Pérez Botija. La canción «Mi vida», escrita por él, es autobiográfica.","Todo escrito, producido y arreglado por Manuel Alejandro (el mismo de Raphael). El más vendido de su carrera.","Su primer álbum con RCA.","","","","","Incluye versiones en español de canciones en inglés, como «You Are the Sunshine of My Life».","","Su último disco con RCA antes del salto a Ariola.","","","Con el productor y guitarrista español Paco Cepero.","","Música de la película Sabor a mí: canciones de Álvaro Carrillo.","","Incluye un dueto con Valeria Lynch («Hay un mañana»).","Producido por Roberto Livi, que volvería a trabajar con él en Mujeriego y Distancia.","","","Producido por Roberto Livi. El sencillo principal fue «Ojalá que te mueras».","Su último álbum de estudio: con mariachi, escrito y producido por Juan Gabriel.","Material inédito grabado en los años 70. Escúchalo después de la etapa 4."];
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
@@ -350,6 +342,13 @@ function renderNow() {
   $("npYt").href = `https://www.youtube.com/watch?v=${s[1]}&list=${a.pl}`;
   $("coverSong").textContent = s[0];
   $("coverAlb").textContent = `${a.t} · ${a.y}`;
+  const d = DESC[key(cur.a, cur.s)];
+  $("desc").hidden = !d;
+  if (d) {
+    $("dText").textContent = d[0];
+    $("dTip").textContent = "";
+    if (d[1]) { const b = document.createElement("b"); b.textContent = "Escúchala fijándote en: "; $("dTip").append(b, d[1]); }
+  }
   $("mSong").textContent = s[0];
   $("mAlb").textContent = `${num(cur.a)}. ${a.t} · ${a.y}`;
 }
