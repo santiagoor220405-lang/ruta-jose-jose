@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ruta por la discografía de José José</title>
+<meta name="description" content="Escucha los 31 álbumes de estudio de José José en orden, con reproductor integrado y tu avance por canción.">
+<meta property="og:title" content="Ruta por la discografía de José José">
+<meta property="og:description" content="31 álbumes de estudio y un extra, en seis etapas. Escúchalos en orden y marca tu avance.">
+<meta property="og:image" content="img/jose-jose-1.jpg">
+<meta name="theme-color" content="#4a1220">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--wine:#6d1c2e;--gold:light-dark(#a87408,#e0ac3a);--bg:light-dark(#fbf8f3,#160d10);--card:light-dark(#f5ede2,#21141a);--ink:light-dark(#241a1c,#f2e9e3);--mute:light-dark(#6e6064,#b8a9ad);--line:light-dark(#e4d7c7,#3a2830);--ok:light-dark(#2f7a46,#6fcf8e);--rose:light-dark(#6d1c2e,#f0b9c4)}
+*{box-sizing:border-box;min-width:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "Work Sans",system-ui,sans-serif;overflow-x:clip;margin:0}
+h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spacing:-.01em;line-height:1.08;margin:0}
+.band{padding-block:clamp(28px,4vw,56px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1200px;margin:0 auto}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+/* hero with photos */
+.hero{position:relative;isolation:isolate;background:#3a0e18;color:#fbf1e6;overflow:hidden;padding-top:calc(env(safe-area-inset-top,0px) + clamp(28px,4vw,56px))}
+.photos{position:absolute;inset:0;z-index:-2}
+.photos img{position:absolute;top:0;right:0;width:62%;height:100%;object-fit:cover;opacity:0;transition:opacity 2.4s ease;filter:contrast(1.05)}
+.photos img.on{opacity:.8}
+.photos img:nth-child(1){object-position:30% 25%}
+.photos img:nth-child(2){object-position:50% 20%}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#3a0e18 0%,#3a0e18 38%,rgba(58,14,24,.7) 52%,rgba(109,28,46,.25) 75%,rgba(109,28,46,.15) 100%),linear-gradient(0deg,rgba(58,14,24,.9) 0%,transparent 30%);mix-blend-mode:normal}
+.hero .wrap{min-height:clamp(380px,40vw,500px);display:flex;flex-direction:column;justify-content:center}
+.hero .intro{max-width:560px}
+.hero h1{font-size:clamp(36px,5vw,56px);text-shadow:0 2px 18px rgba(0,0,0,.35)}
+.sub{color:#ecd3ab;font-size:17px;margin:10px 0 24px}
+.stat{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:16px}
+.stat b{display:block;font:400 clamp(30px,4vw,40px)/1 "DM Serif Display",serif;color:#f3c565}
+.stat span{font-size:14px;color:#ecdccd}
+.shelf{display:grid;grid-template-columns:repeat(16,minmax(0,1fr));gap:6px;max-width:520px}
+.shelf a{aspect-ratio:1;border-radius:50%;background:#3f1019;border:2px solid #9a5060;display:block}
+.shelf a.part{background:conic-gradient(#f3c565 var(--p),#3f1019 0)}
+.shelf a.done{background:#f3c565;border-color:#f3c565}
+.shelf a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.tools{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin-top:14px;font-size:13px;color:#dcc6b4}
+.tools button,.tools label{all:unset;cursor:pointer;color:#f3c565;text-decoration:underline;text-underline-offset:3px;font-size:13px}
+.tools button:focus-visible,.tools label:focus-within{outline:2px solid #fff}
+.credit{position:absolute;right:max(5vw,16px);bottom:8px;font-size:11px;color:#d9bfae;opacity:.85}
+.credit a{color:inherit}
+
+/* player */
+.playband{background:#1f070d;color:#fbf1e6}
+.deck{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(16px,3vw,36px);align-items:center;scroll-margin-top:70px}
+.screen{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}
+.screen>div,.screen iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cover{position:absolute;inset:0;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at 50% 45%,#2a0c14,#000);color:#fbf1e6;padding:16px;cursor:pointer;border:0;font:inherit;width:100%}
+.cover .disc{width:min(38%,170px);aspect-ratio:1;border-radius:50%;margin:0 auto 10px;background:radial-gradient(circle,#6d1c2e 0 26%,#f3c565 26.5% 27.5%,#6d1c2e 28% 33%,#111 34%),repeating-radial-gradient(circle,#111 0 2px,#222 2px 3px);box-shadow:0 0 0 1px #333;display:grid;place-items:center}
+.cover .disc::after{content:"▶";color:#f3c565;font-size:clamp(18px,3vw,28px);transform:translateX(2px)}
+.cover small{color:#ddc3a0}
+.screen .err{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;background:#120508;color:#fbf1e6}
+.screen .err a{color:#f3c565}
+.np small{display:block}
+.np small{color:#d9b98a;font-size:13px}
+.np h2{font-size:clamp(22px,2.4vw,28px);color:#fff;margin:2px 0}
+.np .alb{color:#e6d4c4;font-size:15px}
+.np .heard{color:#9fe0b1;font-size:14px;min-height:21px;margin-top:4px}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.btn{font:600 15px "Work Sans",sans-serif;border:0;border-radius:999px;padding:10px 16px;min-height:44px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+.nx{background:#f3c565;color:#2b0a12}
+.nx:hover{background:#ffd884}
+.ic{background:transparent;color:#fbf1e6;border:1px solid #8a4352;padding:10px 14px}
+.ic:hover{background:#4a1520}
+.yt{background:transparent;color:#ddc3a0;font-size:14px;padding:10px 8px;text-decoration:underline;text-underline-offset:3px}
+.btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.auto{display:flex;align-items:center;gap:8px;font-size:14px;color:#e6d4c4;cursor:pointer}
+.auto input{width:18px;height:18px;accent-color:#f3c565}
+.toast{margin-top:8px;font-size:14px;color:#f3c565;min-height:20px}
+.toast a{color:#fff}
+.desc{margin-top:12px;padding:12px 14px;border-left:3px solid #f3c565;background:rgba(243,197,101,.07);border-radius:0 8px 8px 0}
+.desc p{margin:0;font-size:15px;line-height:1.55;color:#f0e2d6}
+.desc .tag{margin-top:8px;font-size:13px;color:#d9b98a;font-style:italic}
+.has-d{color:var(--gold);font-size:13px;margin-left:4px}
+.pp{width:56px;height:56px;padding:0;justify-content:center;background:#f3c565;color:#2b0a12;font-size:22px}
+.pp:hover{background:#ffd884}
+.prog{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:13px;color:#d9b98a;font-variant-numeric:tabular-nums}
+.prog input{flex:1;accent-color:#f3c565;height:24px;cursor:pointer}
+.row2{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin-top:8px}
+.kbd{font-size:13px;color:#b99a8c;margin-top:6px}
+.mini{position:fixed;left:0;right:0;bottom:0;z-index:20;background:#1f070d;color:#fbf1e6;border-top:1px solid #6e2a3a;padding:10px max(5vw,16px) calc(10px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;transform:translateY(110%);transition:transform .25s;box-shadow:0 -6px 24px rgba(0,0,0,.35)}
+.mini.show{transform:none}
+.mbar{position:absolute;left:0;right:0;top:-1px;height:3px;background:#4a1520}
+.mbar b{display:block;height:100%;width:0;background:#f3c565}
+.mt{all:unset;cursor:pointer;display:grid;min-width:0}
+.mt strong{font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mt small{font-size:13px;color:#d9b98a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mt:focus-visible{outline:2px solid #fff}
+.mc{display:flex;gap:6px;align-items:center}
+.mc .pp{width:46px;height:46px;min-height:46px;font-size:18px}
+.mc .ic{padding:8px 12px;min-height:42px}
+body.has-mini{padding-bottom:84px}
+
+/* guide */
+
+/* stages */
+nav.st{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px;padding-top:calc(10px + env(safe-area-inset-top,0px))}
+nav.st .wrap{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav.st a{flex:none;font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;padding:7px 12px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+nav.st a:hover{border-color:var(--wine);color:var(--rose)}
+nav.st a i{font-style:normal;color:var(--mute);font-weight:500;margin-left:4px}
+.stage{scroll-margin-top:70px;margin-top:clamp(36px,5vw,56px)}
+.stage>header{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;border-bottom:2px solid var(--gold);padding-bottom:10px;margin-bottom:6px}
+.stage h2{font-size:clamp(28px,3.6vw,38px);color:var(--rose)}
+.stage .lead{color:var(--mute);margin:6px 0 0;max-width:70ch}
+.stage .cnt{font-size:14px;color:var(--mute);white-space:nowrap}
+.albums{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:18px}
+.album{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--line);scroll-margin-top:70px}
+.album.cur{outline:2px solid var(--gold)}
+.ah{background:var(--wine);color:#fff;padding:12px 14px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center}
+.ah h3{font:600 18px/1.25 "Work Sans",sans-serif}
+.ah .y{color:#f3c565;font-size:14px;font-weight:600}
+.badge{width:30px;height:30px;border-radius:50%;border:2px solid #f3c565;display:grid;place-items:center;font-weight:700;color:#2b0a12;font-size:15px}
+.album.done .badge{background:#f3c565}
+.album.done .ah{background:#4f1422}
+.bar{height:4px;background:#4a1520}
+.bar i{display:block;height:100%;background:#f3c565;transition:width .3s}
+.ab{padding:12px 14px 14px}
+.note{font-size:14px;color:var(--mute);font-style:italic;margin:0 0 8px}
+.donemsg{font-size:14px;color:var(--ok);font-weight:600;margin:0 0 8px}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.sm{font:600 14px "Work Sans",sans-serif;border-radius:999px;padding:7px 13px;min-height:36px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;border:1px solid var(--wine);color:var(--rose);background:transparent}
+.sm.pri{background:var(--wine);color:#fff}
+.sm:hover{filter:brightness(1.1)}
+ol.songs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:column;column-gap:14px}
+.songs li{display:flex;align-items:center;gap:6px;min-height:36px;border-bottom:1px solid var(--line)}
+.songs input{width:20px;height:20px;accent-color:var(--wine);flex:none;margin:0;cursor:pointer}
+.songs .n{color:var(--gold);font-weight:700;font-size:14px;width:22px;text-align:right;flex:none;font-variant-numeric:tabular-nums}
+.songs button{all:unset;cursor:pointer;flex:1;font-size:15px;line-height:1.3;padding:6px 0;overflow-wrap:anywhere}
+.songs button:hover{color:var(--rose);text-decoration:underline}
+.songs button:focus-visible{outline:2px solid var(--gold)}
+.songs li.on button{color:var(--mute);text-decoration:line-through;text-decoration-color:var(--line)}
+.songs li.now{background:color-mix(in srgb,var(--gold) 18%,transparent)}
+.songs li.now .n::before{content:"♪";margin-right:2px}
+.star{color:var(--gold)}
+.extra{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:18px}
+.extra p{margin:0;color:var(--mute)}
+.extra b{color:var(--ink)}
+footer{color:var(--mute);font-size:13px;border-top:1px solid var(--line);margin-top:48px;padding-top:16px}
+footer p{margin:0 0 8px}
+footer a{color:var(--rose)}
+
+@media(max-width:960px){.deck{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:700px){.photos img{width:100%;height:56%;top:auto;bottom:0}.hero .wrap{justify-content:flex-start;min-height:0;padding-bottom:min(52vw,260px)}.photos img:nth-child(1){object-position:30% 0%}.photos img:nth-child(2){object-position:50% 5%}.hero::before{background:linear-gradient(180deg,#3a0e18 0%,#3a0e18 42%,rgba(58,14,24,.55) 70%,rgba(58,14,24,.75) 100%)}}
+@media(max-width:760px){.albums,.extra{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:520px){ol.songs{grid-template-columns:minmax(0,1fr);grid-auto-flow:row}.shelf{gap:4px}.stat{gap:20px}}
+</style>
+</head>
+<body>
+
+<section class="band hero">
+  <div class="photos" aria-hidden="true">
+    <img src="img/jose-jose-1.jpg" alt="" class="on">
+    <img src="img/jose-jose-2.jpg" alt="" loading="lazy">
+  </div>
+  <div class="wrap">
+    <div class="intro">
+      <h1>Ruta por la discografía de José José</h1>
+      <p class="sub">El Príncipe de la Canción · 31 álbumes de estudio, de 1969 a 2001, y un extra</p>
+      <div class="stat">
+        <div><b id="sSongs">0</b><span>de <span id="tSongs"></span> canciones escuchadas</span></div>
+        <div><b id="sAlb">0</b><span>de <span id="tAlb"></span> álbumes completos</span></div>
+      </div>
+      <div class="shelf" id="shelf" aria-label="Avance por álbum"></div>
+      <div class="tools">
+        <span>Tu avance se guarda en este navegador.</span>
+        <button type="button" id="exp">Exportar avance</button>
+        <label>Importar avance<input type="file" id="imp" accept="application/json,.json" hidden></label>
+      </div>
+    </div>
+  </div>
+  <p class="credit">Fotos: <a href="https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Jos%C3%A9_(5403820428).jpg" target="_blank" rel="noopener">Gabriel from México</a>, CC BY 2.0, vía Wikimedia Commons</p>
+</section>
+
+<section class="band playband">
+  <div class="wrap">
+    <div class="deck" id="deck">
+      <div class="screen">
+        <div id="yt"></div>
+        <button class="cover" id="cover" type="button" aria-label="Reproducir">
+          <span><span class="disc"></span><strong id="coverSong"></strong><br><small id="coverAlb"></small></span>
+        </button>
+      </div>
+      <div class="side">
+      <div class="np" aria-live="polite">
+        <div>
+          <small id="npPos"></small>
+          <h2 id="npSong"></h2>
+          <div class="alb" id="npAlb"></div>
+        </div>
+        <div class="heard" id="npHeard"></div>
+      </div>
+      <div class="desc" id="desc" hidden>
+        <p id="dText"></p>
+        <p class="tag" id="dTag" hidden>Interpretación de la letra</p>
+      </div>
+      <div class="ctl">
+        <button class="btn ic" id="npPrev" type="button" aria-label="Canción anterior">⏮</button>
+        <button class="btn pp" id="npPlay" type="button" aria-label="Reproducir">▶</button>
+        <button class="btn ic" id="npNext" type="button" aria-label="Canción siguiente">⏭</button>
+        <button class="btn nx" id="npDone" type="button">✓ Escuchada, siguiente</button>
+      </div>
+      <div class="prog"><span id="tCur">0:00</span><input type="range" id="seek" min="0" max="1000" value="0" aria-label="Avance de la canción"><span id="tDur">0:00</span></div>
+      <div class="row2">
+        <label class="auto"><input type="checkbox" id="autoMark" checked> Marcar al terminar</label>
+        <a class="btn yt" id="npYt" href="#" target="_blank" rel="noopener">Abrir en YouTube ↗</a>
+      </div>
+      <p class="kbd">Teclado: espacio para pausar · ← → para cambiar de canción</p>
+      <div class="toast" id="toast"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="st band" aria-label="Etapas"><div class="wrap" id="nav"></div></nav>
+
+<main class="band" style="padding-top:0">
+  <div class="wrap">
+    <div id="stages"></div>
+    <div class="extra">
+      <p><b>Y algo más (1998).</b> Recopilación atípica: tres duetos (uno con José Feliciano y dos con Marco Antonio Muñiz) y sus primeras cuatro grabaciones, de 1965. Hoy está descatalogado; si lo encuentras en YouTube, es una joya.</p>
+      <p><b>Gavilán o paloma (1985).</b> Banda sonora de la película en la que se interpretó a sí mismo, armada sobre todo con éxitos que ya conocerás. Mejor que el disco: ve la película al terminar la etapa 3.</p>
+    </div>
+    <footer>
+      <p>Las listas de canciones corresponden a la edición original de cada álbum. Algunas reediciones en YouTube o streaming agregan pistas extra o cambian ligeramente los títulos. Quedaron fuera las recopilaciones, los discos en vivo y las regrabaciones posteriores a 2001. Fuentes: Wikipedia (artículo de José José y fichas de cada álbum), letras.com.br (discografía), EcuRed y prensa (Excélsior, La Razón, Qobuz).</p>
+      <p>Fotos de José José (2011): Gabriel from México, <a href="https://creativecommons.org/licenses/by/2.0/deed.es" target="_blank" rel="noopener">CC BY 2.0</a>, vía Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Jos%C3%A9_(5403820428).jpg" target="_blank" rel="noopener">1</a>, <a href="https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Jos%C3%A9_(5403227107).jpg" target="_blank" rel="noopener">2</a>); convertidas a blanco y negro. La música se reproduce desde YouTube. Página de fan, sin fines comerciales.</p>
+    </footer>
+  </div>
+</main>
+
+<div class="mini" id="mini" aria-label="Mini reproductor">
+  <i class="mbar"><b id="mProg"></b></i>
+  <button class="mt" id="mGo" type="button" title="Ir al reproductor"><strong id="mSong"></strong><small id="mAlb"></small></button>
+  <div class="mc">
+    <button class="btn ic" id="mPrev" type="button" aria-label="Canción anterior">⏮</button>
+    <button class="btn pp" id="mPlay" type="button" aria-label="Reproducir">▶</button>
+    <button class="btn ic" id="mNext" type="button" aria-label="Canción siguiente">⏭</button>
+  </div>
+</div>
+
+<script>
+{
+const A = __DATA__;
+const STAGES = [
+  {id:"etapa-1",n:"Etapa 1",t:"La puerta de entrada",y:"1970",d:"Empieza donde empezó la leyenda. Antes de El triste, mira en YouTube su presentación en el Festival de la Canción Latina de 1970.",a:[0,1]},
+  {id:"etapa-2",n:"Etapa 2",t:"La edad de oro",y:"1977–1981",d:"Su regreso a lo más alto tras firmar con Ariola. Aquí aparecen los grandes compositores de su carrera.",a:[2,3,4,5,6,7,8]},
+  {id:"etapa-3",n:"Etapa 3",t:"La cumbre",y:"1982–1983",d:"Los dos discos más personales y exitosos. Escúchalos con calma y con la letra en mano.",a:[9,10]},
+  {id:"etapa-4",n:"Etapa 4",t:"De vuelta al origen",y:"1969–1976",d:"Ya con el oído entrenado, regresa a sus primeros años en RCA: el joven cantante que se estaba buscando.",a:[11,12,13,14,15,16,17,18]},
+  {id:"etapa-5",n:"Etapa 5",t:"Después de Secretos",y:"1984–1990",d:"La segunda mitad de los 80: nuevos productores, nuevos sonidos y más boleros.",a:[19,20,21,22,23,24,25]},
+  {id:"etapa-6",n:"Etapa 6",t:"La última etapa",y:"1992–2001",d:"Su voz ya no es la misma y eso también se escucha. Entender este cierre es parte de conocerlo de verdad.",a:[26,27,28,29,30]},
+  {id:"extra",n:"Extra",t:"Inéditos y discos especiales",y:"",d:"No forman parte de la ruta principal, pero un fan destacado los conoce.",a:[31]}
+];
+const DESC = __DESC__; // "album-song" -> [texto, 1 si es interpretación]
+const NOTES = ["Su primer gran éxito en México y Latinoamérica.","El disco del festival de 1970. «El triste» es de Roberto Cantoral; quedó 3.º pero lo consagró.","Grabado en Londres; su primer disco con Ariola. Debuta como compositor con «Si alguna vez».","","Con canciones de Juan Gabriel y José María Napoleón; incluye una versión de «Just the Way You Are» de Billy Joel.","Coproducido con Camilo Sesto: tu puente con uno de tus favoritos.","Grabado en Los Ángeles. «Insaciable amante» es de Camilo Sesto.","Boleros clásicos con su sello; la única canción nueva es «Polvo enamorado».","Coproducido con Rafael Pérez Botija. Aquí están «Preso» y «Me basta».","Con Rafael Pérez Botija. La canción «Mi vida», escrita por él, es autobiográfica.","Todo escrito, producido y arreglado por Manuel Alejandro (el mismo de Raphael). El más vendido de su carrera.","Su primer álbum con RCA.","","","","","Incluye versiones en español de canciones en inglés, como «You Are the Sunshine of My Life».","","Su último disco con RCA antes del salto a Ariola.","","","Con el productor y guitarrista español Paco Cepero.","","Música de la película Sabor a mí: canciones de Álvaro Carrillo.","","Incluye un dueto con Valeria Lynch («Hay un mañana»).","Producido por Roberto Livi, que volvería a trabajar con él en Mujeriego y Distancia.","","","Producido por Roberto Livi. El sencillo principal fue «Ojalá que te mueras».","Su último álbum de estudio: con mariachi, escrito y producido por Juan Gabriel.","Material inédito grabado en los años 70. Escúchalo después de la etapa 4."];
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $ = id => document.getElementById(id);
+const num = i => i === 31 ? "★" : String(i + 1);
+const key = (a, s) => a + "-" + s;
+const TOTAL = A.reduce((n, a) => n + a.s.length, 0);
+const ORDER = STAGES.flatMap(st => st.a);
+
+let heard = {}, cur = {a: 0, s: 0}, autoMark = true;
+const albumCount = i => A[i].s.reduce((n, _, j) => n + (heard[key(i, j)] ? 1 : 0), 0);
+const albumDone = i => albumCount(i) === A[i].s.length;
+
+/* ---------- render ---------- */
+function renderStages() {
+  $("nav").innerHTML = STAGES.map(st => `<a href="#${st.id}">${esc(st.n)}<i>${esc(st.y || "1997")}</i></a>`).join("");
+  $("stages").innerHTML = STAGES.map(st => `
+    <section class="stage" id="${st.id}">
+      <header><div><h2>${esc(st.n)} · ${esc(st.t)}${st.y ? " (" + esc(st.y) + ")" : ""}</h2><p class="lead">${esc(st.d)}</p></div><span class="cnt" data-stage="${st.id}"></span></header>
+      <div class="albums">${st.a.map(albumHTML).join("")}</div>
+    </section>`).join("");
+}
+function albumHTML(i) {
+  const a = A[i];
+  return `<article class="album" id="album-${i}">
+    <div class="ah"><div class="badge" aria-hidden="true"></div><h3>${num(i)}. ${esc(a.t)}</h3><span class="y">${a.y}</span></div>
+    <div class="bar"><i></i></div>
+    <div class="ab">
+      ${NOTES[i] ? `<p class="note">${esc(NOTES[i])}</p>` : ""}
+      <p class="donemsg" hidden>✓ Álbum escuchado en su totalidad</p>
+      <div class="acts">
+        <button class="sm pri" type="button" data-play="${i}">▶ Escuchar este álbum</button>
+        <a class="sm" href="https://www.youtube.com/playlist?list=${esc(a.pl)}" target="_blank" rel="noopener">Playlist en YouTube ↗</a>
+      </div>
+      <ol class="songs" style="grid-template-rows:repeat(${Math.ceil(a.s.length / 2)},auto)">
+        ${a.s.map((s, j) => `<li data-k="${key(i, j)}">
+          <input type="checkbox" aria-label="Escuchada: ${esc(s[0])}">
+          <span class="n">${j + 1}.</span>
+          <button type="button" data-a="${i}" data-s="${j}" title="Reproducir">${esc(s[0])}${s[2] ? ' <span class="star" title="Ya la conoces">★</span>' : ""}${DESC[key(i, j)] ? ' <span class="has-d" title="Tiene descripción en el reproductor">✦</span>' : ""}</button>
+        </li>`).join("")}
+      </ol>
+    </div>
+  </article>`;
+}
+function renderProgress() {
+  let songs = 0, albs = 0;
+  A.forEach((a, i) => {
+    const c = albumCount(i), done = c === a.s.length;
+    songs += c; if (done) albs++;
+    const el = $("album-" + i);
+    el.classList.toggle("done", done);
+    el.classList.toggle("cur", cur.a === i);
+    el.querySelector(".badge").textContent = done ? "✓" : "";
+    el.querySelector(".bar i").style.width = (c / a.s.length * 100) + "%";
+    el.querySelector(".donemsg").hidden = !done;
+    a.s.forEach((_, j) => {
+      const li = el.querySelector(`li[data-k="${key(i, j)}"]`), on = !!heard[key(i, j)];
+      li.classList.toggle("on", on);
+      li.querySelector("input").checked = on;
+      li.classList.toggle("now", cur.a === i && cur.s === j);
+    });
+  });
+  $("sSongs").textContent = songs; $("tSongs").textContent = TOTAL;
+  $("sAlb").textContent = albs; $("tAlb").textContent = A.length;
+  STAGES.forEach(st => {
+    const d = st.a.filter(albumDone).length;
+    document.querySelector(`[data-stage="${st.id}"]`).textContent = `${d} de ${st.a.length} ${st.a.length === 1 ? "álbum completo" : "álbumes completos"}`;
+  });
+  $("shelf").innerHTML = ORDER.map(i => {
+    const c = albumCount(i), n = A[i].s.length;
+    return `<a href="#album-${i}" class="${c === n ? "done" : c ? "part" : ""}" style="--p:${Math.round(c / n * 100)}%" title="${esc(num(i) + ". " + A[i].t)}: ${c}/${n}" aria-label="${esc(A[i].t)}: ${c} de ${n}"></a>`;
+  }).join("");
+  renderNow();
+}
+function renderNow() {
+  const a = A[cur.a], s = a.s[cur.s];
+  $("npPos").textContent = `Canción ${cur.s + 1} de ${a.s.length}`;
+  $("npSong").textContent = s[0] + (s[2] ? " ★" : "");
+  $("npAlb").textContent = `${num(cur.a)}. ${a.t} · ${a.y}`;
+  $("npHeard").textContent = heard[key(cur.a, cur.s)] ? "✓ Ya la escuchaste" : "";
+  $("npYt").href = `https://www.youtube.com/watch?v=${s[1]}&list=${a.pl}`;
+  $("coverSong").textContent = s[0];
+  $("coverAlb").textContent = `${a.t} · ${a.y}`;
+  const d = DESC[key(cur.a, cur.s)];
+  $("desc").hidden = !d;
+  if (d) {
+    $("dText").textContent = d[0];
+    $("dTag").hidden = !d[1];
+  }
+  $("mSong").textContent = s[0];
+  $("mAlb").textContent = `${num(cur.a)}. ${a.t} · ${a.y}`;
+}
+
+/* ---------- state ---------- */
+const LS = "jj-ruta-v1";
+function save() { try { localStorage.setItem(LS, JSON.stringify({heard, cur, autoMark})); } catch (e) {} }
+function load(o) {
+  if (!o || typeof o !== "object") return false;
+  if (o.heard && typeof o.heard === "object") heard = Object.fromEntries(Object.keys(o.heard).filter(k => /^\d+-\d+$/.test(k)).map(k => [k, 1]));
+  if (o.cur && A[o.cur.a] && A[o.cur.a].s[o.cur.s]) cur = {a: o.cur.a, s: o.cur.s};
+  if (typeof o.autoMark === "boolean") autoMark = o.autoMark;
+  return true;
+}
+function firstPending() {
+  for (const i of ORDER) for (let j = 0; j < A[i].s.length; j++) if (!heard[key(i, j)]) return {a: i, s: j};
+  return {a: ORDER[0], s: 0};
+}
+let toastT;
+function toast(msg, link) {
+  const el = $("toast"); el.textContent = msg;
+  if (link) { const a = document.createElement("a"); a.href = link; a.target = "_blank"; a.rel = "noopener"; a.textContent = " Escúchala en YouTube ↗"; el.appendChild(a); }
+  clearTimeout(toastT); toastT = setTimeout(() => el.textContent = "", link ? 12000 : 6000);
+}
+function setHeard(i, j, on) {
+  const was = albumDone(i);
+  if (on) heard[key(i, j)] = 1; else delete heard[key(i, j)];
+  if (!was && albumDone(i)) toast(`¡Completaste «${A[i].t}»! Álbum marcado como escuchado.`);
+  save();
+}
+function step(dir) {
+  let pos = ORDER.indexOf(cur.a), s = cur.s + dir;
+  if (s >= A[cur.a].s.length) { pos = (pos + 1) % ORDER.length; s = 0; }
+  else if (s < 0) { pos = (pos - 1 + ORDER.length) % ORDER.length; s = A[ORDER[pos]].s.length - 1; }
+  cur = {a: ORDER[pos], s};
+}
+
+/* ---------- YouTube player ---------- */
+let player = null, ready = false, wantPlay = false, started = false, playing = false, seeking = false, errRun = 0, deckSeen = true;
+function vid() { return A[cur.a].s[cur.s][1]; }
+const fmt = x => { x = Math.max(0, Math.floor(x || 0)); return Math.floor(x / 60) + ":" + String(x % 60).padStart(2, "0"); };
+function clearErr() { const e = document.querySelector(".screen .err"); if (e) e.remove(); }
+function setPlaying(v) {
+  playing = v;
+  for (const id of ["npPlay", "mPlay"]) { $(id).textContent = v ? "⏸" : "▶"; $(id).setAttribute("aria-label", v ? "Pausar" : "Reproducir"); }
+}
+function resetProg() { $("seek").value = 0; $("tCur").textContent = "0:00"; $("tDur").textContent = "0:00"; $("mProg").style.width = "0"; }
+function play() {
+  clearErr();
+  started = true;
+  $("cover").hidden = true;
+  updateMini();
+  resetProg();
+  if (ready) player.loadVideoById(vid());
+  else { wantPlay = true; ensureApi(); }
+}
+function togglePlay() {
+  if (!started) return play();
+  if (!ready) return;
+  if (playing) player.pauseVideo(); else player.playVideo();
+}
+function go(dir, mark) {
+  if (mark) setHeard(cur.a, cur.s, true);
+  step(dir); save(); renderProgress();
+  if (started) play();
+}
+function ensureApi() {
+  if (window.YT && window.YT.Player) return createPlayer();
+  if (document.getElementById("ytapi")) return;
+  window.onYouTubeIframeAPIReady = createPlayer;
+  const s = document.createElement("script");
+  s.id = "ytapi"; s.src = "https://www.youtube.com/iframe_api";
+  s.onerror = () => showErr("No se pudo cargar el reproductor de YouTube.");
+  document.head.appendChild(s);
+}
+function createPlayer() {
+  if (player) return;
+  player = new YT.Player("yt", {
+    videoId: vid(),
+    playerVars: {playsinline: 1, rel: 0},
+    events: {
+      onReady: () => { ready = true; if (wantPlay) { wantPlay = false; player.loadVideoById(vid()); } },
+      onStateChange: e => {
+        const S = YT.PlayerState;
+        if (e.data === S.PLAYING) { setPlaying(true); errRun = 0; if (!started) { started = true; $("cover").hidden = true; updateMini(); } }
+        else if (e.data === S.PAUSED) setPlaying(false);
+        else if (e.data === S.ENDED) { setPlaying(false); go(1, autoMark); }
+      },
+      onError: () => {
+        const s = A[cur.a].s[cur.s], link = `https://www.youtube.com/watch?v=${s[1]}`;
+        setPlaying(false);
+        errRun++;
+        if (errRun >= 4) { errRun = 0; showErr("Varias canciones seguidas no se pudieron reproducir aquí."); return; }
+        toast(`«${s[0]}» no se puede reproducir aquí, sigo con la próxima.`, link);
+        setTimeout(() => go(1, false), 1800);
+      }
+    }
+  });
+}
+function showErr(msg) {
+  clearErr();
+  const d = document.createElement("div");
+  d.className = "err";
+  d.innerHTML = `<div><p>${esc(msg)}</p><p><a href="${esc($("npYt").href)}" target="_blank" rel="noopener">Escúchala en YouTube ↗</a> y luego pulsa «Escuchada, siguiente».</p></div>`;
+  document.querySelector(".screen").appendChild(d);
+}
+setInterval(() => {
+  if (!ready || !started || seeking) return;
+  const c = player.getCurrentTime ? player.getCurrentTime() : 0, d = player.getDuration ? player.getDuration() : 0;
+  $("tCur").textContent = fmt(c); $("tDur").textContent = fmt(d);
+  const r = d ? c / d : 0;
+  $("seek").value = Math.round(r * 1000);
+  $("mProg").style.width = (r * 100) + "%";
+}, 500);
+$("seek").addEventListener("input", () => {
+  seeking = true;
+  const d = ready && player.getDuration ? player.getDuration() : 0;
+  $("tCur").textContent = fmt(d * $("seek").value / 1000);
+});
+$("seek").addEventListener("change", () => {
+  const d = ready && player.getDuration ? player.getDuration() : 0;
+  if (started && d) player.seekTo(d * $("seek").value / 1000, true);
+  seeking = false;
+});
+function updateMini() {
+  const show = started && !deckSeen;
+  $("mini").classList.toggle("show", show);
+  document.body.classList.toggle("has-mini", show);
+}
+new IntersectionObserver(es => { deckSeen = es[0].isIntersecting; updateMini(); }, {threshold: 0.15}).observe($("deck"));
+
+/* ---------- events ---------- */
+document.addEventListener("click", e => {
+  const b = e.target.closest("button[data-s]");
+  if (b) { cur = {a: +b.dataset.a, s: +b.dataset.s}; save(); renderProgress(); play(); $("deck").scrollIntoView({block: "center"}); return; }
+  const p = e.target.closest("[data-play]");
+  if (p) {
+    const i = +p.dataset.play, j = A[i].s.findIndex((_, k) => !heard[key(i, k)]);
+    cur = {a: i, s: j < 0 ? 0 : j}; save(); renderProgress(); play();
+    $("deck").scrollIntoView({block: "center"});
+  }
+});
+document.addEventListener("change", e => {
+  const li = e.target.closest("li[data-k]");
+  if (!li) return;
+  const [i, j] = li.dataset.k.split("-").map(Number);
+  setHeard(i, j, e.target.checked); renderProgress();
+});
+$("cover").addEventListener("click", play);
+$("npPlay").addEventListener("click", togglePlay);
+$("mPlay").addEventListener("click", togglePlay);
+$("mPrev").addEventListener("click", () => go(-1, false));
+$("mNext").addEventListener("click", () => go(1, false));
+$("mGo").addEventListener("click", () => $("deck").scrollIntoView({behavior: "smooth", block: "center"}));
+document.addEventListener("keydown", e => {
+  if (e.altKey || e.ctrlKey || e.metaKey) return;
+  const tag = e.target.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+  if (e.key === " " || e.code === "Space") {
+    if (tag === "BUTTON" || tag === "A") return;
+    e.preventDefault(); togglePlay();
+  } else if (e.key === "ArrowRight") { e.preventDefault(); go(1, false); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); go(-1, false); }
+});
+$("npDone").addEventListener("click", () => go(1, true));
+$("npNext").addEventListener("click", () => go(1, false));
+$("npPrev").addEventListener("click", () => go(-1, false));
+$("autoMark").addEventListener("change", e => { autoMark = e.target.checked; save(); });
+$("exp").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify({app: "ruta-jose-jose", v: 1, heard, cur, autoMark}, null, 1)], {type: "application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "avance-jose-jose.json";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  toast("Avance exportado. Ábrelo con «Importar avance» en otro dispositivo.");
+});
+$("imp").addEventListener("change", async e => {
+  const f = e.target.files[0]; e.target.value = "";
+  if (!f) return;
+  try {
+    const o = JSON.parse(await f.text());
+    if (o.app !== "ruta-jose-jose" || !load(o)) throw 0;
+    $("autoMark").checked = autoMark; save(); renderProgress();
+    toast(`Avance importado: ${Object.keys(heard).length} canciones escuchadas.`);
+  } catch (err) { toast("Ese archivo no es un avance válido de esta ruta."); }
+});
+
+/* photos crossfade */
+const imgs = document.querySelectorAll(".photos img");
+let ph = 0;
+if (!matchMedia("(prefers-reduced-motion: reduce)").matches) setInterval(() => { imgs[ph].classList.remove("on"); ph = (ph + 1) % imgs.length; imgs[ph].classList.add("on"); }, 9000);
+
+/* boot */
+renderStages();
+let stored = null;
+try { stored = JSON.parse(localStorage.getItem(LS) || "null"); } catch (e) {}
+if (!load(stored)) cur = firstPending();
+$("autoMark").checked = autoMark;
+renderProgress();
+ensureApi();
+}
+</script>
+</body>
+</html>
