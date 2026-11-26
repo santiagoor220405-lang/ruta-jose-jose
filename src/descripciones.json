@@ -34,8 +34,8 @@
       "pista": 3,
       "total_pistas": 12,
       "cancion": "Si Alguien Me Dijera",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre imagina que le quedan pocos días de vida y lo que haría con ese tiempo: buscar a la mujer que ama, sin orgullo, y pedirle que llegue hasta él. Transmite urgencia, arrepentimiento y una súplica desesperada.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -46,8 +46,8 @@
       "pista": 4,
       "total_pistas": 12,
       "cancion": "Ven y Verás",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre invita a su pareja a confiar en el amor, asegurándole que no se arrepentirá. Juntos buscarían la felicidad y la paz, y con ella se sentiría capaz de elevarse. Transmite confianza, ilusión y ternura optimista.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -58,8 +58,8 @@
       "pista": 5,
       "total_pistas": 12,
       "cancion": "Alguien",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una mujer que se siente sola es invitada a recordar a quien la quiso con pasión desmedida, y el narrador revela que ese alguien es él mismo. Transmite melancolía, reproche tierno y una seguridad serena.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -70,8 +70,8 @@
       "pista": 6,
       "total_pistas": 12,
       "cancion": "Ella Es Así",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre describe a su pareja como intensa, caprichosa e indomable, pero leal, y declara que no quiere cambiarla ni pedirle que sea otra. Transmite aceptación incondicional, admiración y un cariño sin control.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -82,8 +82,8 @@
       "pista": 7,
       "total_pistas": 12,
       "cancion": "Del Altar a La Tumba",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre le confiesa a su pareja que la extraña y la quiere, y le jura entregarse a ella para siempre, toda la vida. Sin ella, todo le parece oscuro. Transmite ternura, fidelidad y una dependencia afectiva intensa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -94,8 +94,8 @@
       "pista": 8,
       "total_pistas": 12,
       "cancion": "Y El Mundo Sigue Girando",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Reflexión sobre la desigualdad: mientras unos sufren y otros viven felices, la vida sigue su curso y nadie puede detener los cambios. Transmite resignación lúcida, un consuelo filosófico y la certeza de que todo se transforma.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -106,8 +106,8 @@
       "pista": 9,
       "total_pistas": 12,
       "cancion": "Nadie, Simplemente Nadie",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre dice que nadie se compara con quien amó, aunque ya sea parte de su pasado, y le suplica que regrese porque sin ella se siente solo y no encuentra otro amor. Transmite nostalgia, súplica y anhelo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -142,8 +142,8 @@
       "pista": 12,
       "total_pistas": 12,
       "cancion": "Un Mundo Para Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre quiere construirle a su amada un mundo aparte, sin gente que la conozca ni recuerdos de otros amores, donde solo él entienda sus deseos. Transmite devoción romántica, idealismo y un afán posesivo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -154,8 +154,8 @@
       "pista": 1,
       "total_pistas": 12,
       "cancion": "Alguien Vendrá",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Consuelo para quien está solo: la soledad es pasajera y alguien llegará a entregar un amor completo para compartir la vida. Transmite esperanza, optimismo y una ternura que invita a no perder la fe.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -166,8 +166,8 @@
       "pista": 2,
       "total_pistas": 12,
       "cancion": "Mi Niña",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre agradece a su pareja, a quien llama con cariño, por devolverle la ilusión y enseñarle a ver belleza en el mundo. Se siente humilde y orgulloso de tener un amor así. Transmite gratitud y ternura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -202,8 +202,8 @@
       "pista": 5,
       "total_pistas": 12,
       "cancion": "Dios Es Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Himno de fe nacido del amor: el protagonista asegura que Dios es amor, que todo lo creó y que cree en Él gracias a la persona que se lo enseñó. Transmite devoción, gratitud y un optimismo espiritual.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -226,8 +226,8 @@
       "pista": 7,
       "total_pistas": 12,
       "cancion": "Esa Canción de Ayer",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Desde la playa, el protagonista escucha una canción de un amor pasado y siente que el sol, el mar y el viento le recuerdan a quien está lejos. Transmite nostalgia, soledad y añoranza durante el verano.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -238,8 +238,8 @@
       "pista": 8,
       "total_pistas": 12,
       "cancion": "Nunca Me Dejes",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Súplica apasionada de quien descubrió que su pareja lo adoraba y le pide que no lo abandone, porque sin ella siente que no podría vivir. Transmite dependencia emocional, miedo a perder y devoción intensa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -262,8 +262,8 @@
       "pista": 10,
       "total_pistas": 12,
       "cancion": "Oh Gente",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Homenaje a la gente en general: cada día nuevas personas se unen con amor, comparten alegrías y tristezas, y entregan su vida con sinceridad. Transmite gratitud, optimismo y un tono de celebración hacia la humanidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -274,8 +274,8 @@
       "pista": 11,
       "total_pistas": 12,
       "cancion": "A Partir de Hoy",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una ruptura definitiva: desde ese día cada uno toma su propio camino y el amor compartido se da por muerto, como una flor marchita. Transmite una decisión firme y dolorosa, con resignación y determinación de no volver atrás.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -286,8 +286,8 @@
       "pista": 12,
       "total_pistas": 12,
       "cancion": "Dos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja celebra haber superado juntos las adversidades y haber construido un amor verdadero. Comparten sueños, penas y alegrías como un ideal común. Transmite complicidad, orgullo compartido y una alegría serena.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -298,8 +298,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Recuerdos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reflexiona sobre la vida como una suma de recuerdos, alegres y dolorosos, que aún lo hieren porque no ha podido olvidar a quien amó. Transmite nostalgia, dolor contenido y un cansancio emocional.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -310,8 +310,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Buenos Días, Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una mañana compartida: el protagonista observa a su pareja dormida, la bromea por su gesto serio y le asegura que no ha encontrado otra mujer como ella. Transmite ternura, complicidad y romanticismo juguetón.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -322,8 +322,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Solo Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Responde a quienes dicen que el amor se apaga con los años y que las aventuras son normales: para él solo existe una persona. Transmite fidelidad, pasión sin fisuras y una devoción firme.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -334,8 +334,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Te Canto Solo a Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Tras jurar que no volvería a enamorarse, el protagonista encuentra a alguien que lo inspira a cantar y le pide que entienda lo que siente. Transmite ilusión, timidez y una declaración de amor sincera.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -346,8 +346,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "¿Cómo Ser Diferente?",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El protagonista quería dejar atrás las canciones de amor, pero se rinde ante la muchacha que lo cautivó: se siente arena junto al mar y se pregunta cómo distinguirse de quienes cantan al amor. Transmite humildad, asombro y entrega.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -370,8 +370,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Si Alguna Vez",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Mensaje a una ex pareja: si lo recuerda con ganas de llorar o siente deseos de volver a verlo, es porque aún lo quiere. Propone olvidar el pasado y empezar de nuevo. Transmite nostalgia, esperanza e invitación a reconciliarse.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -382,8 +382,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Si No Eres Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Súplica a quien se alejó: sin esa persona no hay razón para vivir ni felicidad posible, así que le pide que regrese para revivir lo que tuvieron. Transmite desolación, insistencia y un deseo tierno de reconciliación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -406,8 +406,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Gotas de Fuego",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre abandonado suplica que regrese: su silencio es una tortura, siente que enloquecerá sin ella y admite que quizá tuvo razones para irse, aunque no soporta vivir sin su amor. Transmite desesperación y dolor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -442,8 +442,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Amor Lo Que Se Dice",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una invitación tierna a la pareja para llegar a su casa a descansar del ruido, con la promesa de cuidarla, darle refugio y ofrecerle calma. Transmite ternura, devoción sencilla y un amor sin pretensiones.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -454,8 +454,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Amándote",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "La persona amada es el final de un largo viaje para el protagonista, que por fin encuentra paz. Con ella su vida cambia y se siente en calma y lleno de alegría. Transmite gratitud, plenitud y felicidad sencilla.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -466,8 +466,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Pregúntaselo a Ella",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El protagonista responde a una acusación de infidelidad y reta a su pareja a preguntarle a la otra mujer, que fue su apoyo en tiempos difíciles. Transmite despecho, orgullo herido y una defensa tensa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -478,8 +478,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Solo Los Pájaros",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se dirige a una joven que, desbordada por la soledad y el dolor, llega a un punto límite. Le pide que se detenga, que no esté sola y que se deje ayudar. Transmite angustia, compasión y apoyo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -490,8 +490,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Jaque Mate",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja reconoce que su relación ya no funciona, aunque siga compartiendo casa y cama, y decide ponerle fin en lugar de vivir como fantasmas. Transmite resignación lúcida, dolor y una honestidad amarga.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -502,8 +502,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Por Una Sonrisa",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El protagonista ofrece a su pareja lo que tiene: miradas, promesas, un beso sincero y una canción especial, y a cambio solo pide una sonrisa. Admite que quizá sueña con ser correspondido. Transmite humildad, ilusión y temor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -514,8 +514,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Libérame",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Quien entregó su vida a la pareja se siente atrapado y dominado: ella lo dejó sin libertad y, al irse, le suplica que regrese o que lo libere. Transmite dependencia, angustia y un ruego desesperado.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -550,8 +550,8 @@
       "pista": 2,
       "total_pistas": 11,
       "cancion": "Amor de Discoteque",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Relato de un flechazo en una discoteca: el protagonista ve bailar sola a una mujer, la invita a bailar, la conquista y, tras un mes, le pide matrimonio. Transmite alegría, romanticismo y nostalgia por el lugar donde todo empezó.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -562,8 +562,8 @@
       "pista": 3,
       "total_pistas": 11,
       "cancion": "Cómo Deseo Hoy Que Sea Mañana",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre anhela que llegue el día siguiente para volver a los brazos de su pareja y dejar atrás las amarguras del pasado. Transmite anhelo, esperanza y ganas de empezar de nuevo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -586,8 +586,8 @@
       "pista": 5,
       "total_pistas": 11,
       "cancion": "Ahora No",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre insiste en salir con una mujer que siempre responde que ahora no. Le asegura que la quiere y que, si ella no lo corresponde, podrían ser solo amigos. Transmite insistencia, ilusión herida y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -610,8 +610,8 @@
       "pista": 7,
       "total_pistas": 11,
       "cancion": "Ahora o Nunca",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El narrador se siente culpable por haber besado a una joven a la que considera demasiado niña para una relación, y le pide que se vaya y guarde sus sueños. Transmite culpa y un tono paternalista que hoy resulta incómodo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -622,8 +622,8 @@
       "pista": 8,
       "total_pistas": 11,
       "cancion": "El Último Beso",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Despedida de un hombre que pide un último minuto antes de que su pareja se vaya, cuestiona si realmente ama a quien la espera y le ruega al menos un beso de adiós. Transmite dolor, orgullo herido y nostalgia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -694,8 +694,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Candy",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide disculpas por lo que dice cuando se enoja y reconoce, sin decirlo abiertamente, que ama a su pareja y que no quiere que el amor fracase. Transmite arrepentimiento, afecto contenido y miedo a lastimarla.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -706,8 +706,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Franqueza",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre comunica con franqueza a su pareja que deben separarse porque ya no la ama, aunque sabe que la herirá. Pide perdón y le pide que no busque explicaciones. Transmite sinceridad dolorosa, firmeza y culpa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -718,8 +718,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Rosa de Fuego",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Ruptura de una relación que quemó: el protagonista decide arrancar de raíz a la mujer que lo lastimó, sin una despedida real, para no volver a sufrir. Transmite dolor, determinación y un alivio contenido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -754,8 +754,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Dónde Vas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre celoso pregunta a su pareja adónde va cuando llega tarde y por qué esquiva la mirada. Confiesa que los celos lo consumen y le pide que le abra su corazón. Transmite celos, inseguridad y súplica.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -778,8 +778,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Linda Disco",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre jura a su pareja que nunca la dejará y le confiesa que la necesita y la sueña, mientras pregunta cuándo le dará un poco de su cariño. Transmite devoción, anhelo y cierta dependencia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -790,8 +790,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Insaciable Amante",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre descubre que su pareja le fue infiel y, tras callar mucho tiempo, decide reclamarle que no es lo único en el mundo. Transmite dolor, orgullo herido y un rencor que por fin se libera.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -802,8 +802,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Te Amo y No Te Amo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un amor contradictorio: el protagonista se debate entre quererla y rechazarla, culparla y perdonarla, sin llegar a abandonarla. Transmite ambivalencia, pasión y una tensión emocional constante.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -814,8 +814,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "No Me Digas Que Te Vas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Ante la amenaza de una ruptura, el protagonista se derrumba y pide a su pareja que no le diga que se va, convencido de que ella lo ama y volverá. Transmite miedo al abandono, insistencia y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -826,8 +826,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "No Me Platiques Más",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El protagonista pide a su pareja que no le hable de sus relaciones anteriores: los celos lo atormentan y prefiere imaginar que su historia comenzó el día que se conocieron. Transmite celos, inseguridad y deseo de exclusividad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -838,8 +838,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Aléjate",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre agotado por una relación de idas y vueltas pide a su pareja que le diga claramente qué siente: si no lo quiere, que se aleje, y si lo ama, que se quede para siempre. Transmite confusión, cansancio y exigencia de claridad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -850,8 +850,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Amor Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Búsqueda del amor perdido: el narrador pregunta dónde se ha ido, si está herido, cansado o dormido, y le pide que vuelva a llenar su vida. Transmite nostalgia, súplica y una fe persistente.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -862,8 +862,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "A Ratos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El protagonista reprocha a su pareja que solo le ofrece amor a ratos, mientras ella busca aventuras y evita compromisos. Transmite desencanto, reproche y un dolor disimulado con ironía.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -886,8 +886,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Perdido En La Oscuridad",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Reflexión existencial: el protagonista se siente perdido ante la vida, sin entender su sentido ni su lugar, y no sabe hacia dónde dirigirse. Transmite confusión, angustia y una búsqueda de sentido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -898,8 +898,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Cosa de Dos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja celebra un amor compartido: ambos aseguran no haber dejado de quererse y agradecen haberse conocido, porque el amor se construye entre dos. Transmite alegría, gratitud y complicidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -934,8 +934,8 @@
       "pista": 3,
       "total_pistas": 12,
       "cancion": "Cancionero",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a un cantor que le diga a su amada que él es feliz, aunque en realidad está destrozado y espera que ella vuelva. Transmite tristeza disimulada, orgullo herido y esperanza de reconciliación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -970,8 +970,8 @@
       "pista": 6,
       "total_pistas": 12,
       "cancion": "Polvo Enamorado",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre que se sentía perdido y derrotado afirma que el amor de su pareja lo devolvió a la vida, como si hubiera vuelto a nacer. Transmite gratitud intensa, pasión y una entrega casi reverencial.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -994,8 +994,8 @@
       "pista": 8,
       "total_pistas": 12,
       "cancion": "Te Me Olvidas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Reflexión sobre cómo el amor se apaga por la distancia y la falta de trato cotidiano: aunque no quiere olvidar, poco a poco ella se le va de la memoria. Transmite melancolía, impotencia y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1006,8 +1006,8 @@
       "pista": 9,
       "total_pistas": 12,
       "cancion": "Novia Mía",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Declaración de entrega total a la novia: desde el primer abrazo olvidó su melancolía, reconoce que se rinde a sus caprichos y que la seguiría a cualquier abismo mientras ella no lo aparte. Transmite pasión y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1030,8 +1030,8 @@
       "pista": 11,
       "total_pistas": 12,
       "cancion": "Muchachita",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre canta a una muchacha bonita que le devolvió la alegría y transformó sus penas en cosas buenas; para él, es su razón de existir. Transmite admiración, ternura y gratitud.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1042,8 +1042,8 @@
       "pista": 12,
       "total_pistas": 12,
       "cancion": "Tu Ausencia",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre devastado por la ausencia de su pareja, que siente que ella lo olvidó, se hunde en el llanto y pide volver a ser feliz sin vivir condenado a sufrir. Transmite desolación, tristeza profunda y deseo de paz.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1054,8 +1054,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Gracias",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Despedida digna de un amor que termina: el protagonista reconoce que no hay culpables, agradece lo vivido y pide a su pareja que siga adelante sin mirar atrás. Transmite resignación, dignidad y una nostalgia serena.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1066,8 +1066,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Una Noche de Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre vive una noche que siente como un sueño del cielo, se pregunta cómo describir lo que siente y jura que ese amor no se separará jamás. Transmite euforia, asombro y una entrega absoluta.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1078,8 +1078,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "No Puedes Mentirme",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a su pareja que deje de fingir y le diga de una vez que la relación terminó, pues siente que ella ya no es feliz a su lado. Transmite angustia, insistencia y un intento de dignidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1090,8 +1090,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Pero Me Hiciste Tuyo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Recuerda una noche en la que buscaba compañía pasajera y terminó entregado a una mujer que lo conquistó por completo. Transmite sensualidad, rendición amorosa y una mezcla de sorpresa y orgullo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1138,8 +1138,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Ámame",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pregunta si ella aún lo recuerda y confiesa la soledad de cada amanecer sin ella. Le pide que vuelva y que le diga cuánto lo quiere. Transmite anhelo, soledad y súplica tierna.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1162,8 +1162,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Tranquilo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre anuncia una separación con aparente calma: no busca culpables, prefiere despedirse antes que vivir como extraños y dice que se va tal como es. Transmite serenidad fingida, dolor contenido y dignidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1186,8 +1186,8 @@
       "pista": 2,
       "total_pistas": 12,
       "cancion": "Aquí Estoy Yo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre desea a su expareja suerte y felicidad en el camino que elija, y le asegura que, si algún día sufre, él seguirá pensando en ella. Transmite generosidad, ternura y un amor sin reproches.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1198,8 +1198,8 @@
       "pista": 3,
       "total_pistas": 12,
       "cancion": "Contigo No",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre decide terminar una relación clandestina con la pareja de su amigo, pues no quiere traicionar a quien considera un amigo leal. Transmite culpa, lealtad y un conflicto moral.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1210,8 +1210,8 @@
       "pista": 4,
       "total_pistas": 12,
       "cancion": "Soy Tan Infiel",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se declara infiel por naturaleza: no quiere ser propiedad de nadie y se entrega al placer con cualquier mujer que lo desee. Transmite provocación, desapego y un machismo desafiante.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1222,8 +1222,8 @@
       "pista": 5,
       "total_pistas": 12,
       "cancion": "Y Para Qué",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reprocha a su antigua pareja que, después de recibir todo su amor, lo dejó sin importarle su dolor, y se pregunta para qué sirvió tanta entrega. Transmite reproche, desilusión y dolor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1258,8 +1258,8 @@
       "pista": 8,
       "total_pistas": 12,
       "cancion": "Vale La Pena Intentarlo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja se suplica no rendirse: aunque su amor parezca agonizar, merecen intentarlo, porque separarse sería perder todo lo que se dieron. Transmite urgencia, esperanza y miedo a la pérdida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1270,8 +1270,8 @@
       "pista": 9,
       "total_pistas": 12,
       "cancion": "Yo No Soy Digno de Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce que maltrata a su pareja, se siente indigno de ella y le pide que deje ir ese amor, pues nunca logrará hacerla feliz. Transmite culpa, autodesprecio y una resignación dolorosa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1282,8 +1282,8 @@
       "pista": 10,
       "total_pistas": 12,
       "cancion": "Siempre Te Vas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre siente que su pareja ya no está plenamente con él: siempre se marcha, parece distante y sospecha que hay otro. Transmite celos, inseguridad y una tristeza resignada.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1294,8 +1294,8 @@
       "pista": 11,
       "total_pistas": 12,
       "cancion": "Regresar El Ayer",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre dividido entre su pareja actual y el recuerdo de un amor anterior desea volver al pasado, sin saber qué hará y temiendo herir a quien lo espera. Transmite confusión, culpa y nostalgia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1306,8 +1306,8 @@
       "pista": 12,
       "total_pistas": 12,
       "cancion": "No Es a Mí",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre rechaza el amor de una mujer porque, según él, ya no tiene sentimientos que ofrecer y solo le causaría dolor. Le pide que busque a alguien que la merezca. Transmite rechazo, tristeza y un intento de protegerla.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1354,8 +1354,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Cuando Vayas Conmigo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a su pareja que no mire a nadie cuando salen juntos, porque los celos lo consumen y quiere que el mundo de ambos se cierre en su amor. Transmite celos, posesividad y ternura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1366,8 +1366,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Entre Ella y Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Compara a dos mujeres: con una se siente lleno de vida, ilusiones y pasión; con la otra solo tiene penas y recuerdos. Transmite alivio, gratitud y la sensación de volver a nacer.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1402,7 +1402,7 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Quiero Perderme Contigo",
-      "descripcion": "Deseo de escapar del mundo con la persona amada y olvidarse de todo lo demás. Transmite pasión, entrega y la fantasía de un amor sin obstáculos.",
+      "descripcion": "Deseo de escapar del mundo con la persona amada y olvidarse de todo lo demás. Transmite pasión, entrega y la fantasía de un amor sin obstáculos, en un tono romántico y muy intenso.",
       "estado": "interpretacion",
       "fuente": null
     },
@@ -1414,8 +1414,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Esta Noche Te Voy a Estrenar",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre cansado de los miedos y de las evasivas de su pareja le confiesa su deseo y le anuncia que esa noche será suya. Transmite deseo, impaciencia y una seducción directa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1426,8 +1426,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "A Esa",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Habla con amargura de una antigua pareja a la que amó intensamente y que, según él, ahora se entrega a cualquiera; aun así confiesa que le daría su vida otra vez. Transmite rencor, dolor y un afecto que persiste.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1438,8 +1438,8 @@
       "pista": 1,
       "total_pistas": 12,
       "cancion": "Solo Una Mujer",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre afirma que solo una mujer enamorada le da sentido al mundo y lo hace crecer como persona. Transmite admiración, devoción romántica y gratitud.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1450,8 +1450,8 @@
       "pista": 2,
       "total_pistas": 12,
       "cancion": "Una Mañana",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Imagina una mañana luminosa en la que su pareja le confiese que cree en su amor y no siente temor, mientras él le ofrece un amor constante. Transmite esperanza, optimismo y una ternura sencilla.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1474,8 +1474,8 @@
       "pista": 4,
       "total_pistas": 12,
       "cancion": "Pero Te Extraño",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa que extraña a su pareja en cada momento del día y de la noche, que sufre por su ausencia y que la ama con sus virtudes y sus errores. Transmite añoranza, sufrimiento y amor leal.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1486,8 +1486,8 @@
       "pista": 5,
       "total_pistas": 12,
       "cancion": "Monólogo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre idolatra a su pareja y, en un monólogo interior, se desespera al verla alejarse de su vida; sin ella, siente que vuelve a creer en su luz. Transmite angustia, idolatría y añoranza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1498,8 +1498,8 @@
       "pista": 6,
       "total_pistas": 12,
       "cancion": "La Amante Perfecta",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Idealiza a su pareja como la amante perfecta: la ve endulzar sus días, cumplir sus caprichos y no fijarse en sus defectos. Transmite adoración, deseo y ternura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1510,8 +1510,8 @@
       "pista": 7,
       "total_pistas": 12,
       "cancion": "Sin Ella (Without Her)",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre espera toda la noche a una mujer que no llega y sufre cada día sin ella, pues el amor que compartieron se ha convertido en dolor. Transmite angustia, soledad y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1522,8 +1522,8 @@
       "pista": 8,
       "total_pistas": 12,
       "cancion": "Agua Con Sal",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Recuerda cómo tomó las lágrimas de su pareja como prueba de amor, hasta comprender que eran de despedida; el amor le resulta amargo. Transmite desengaño, nostalgia y una amargura lúcida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1534,8 +1534,8 @@
       "pista": 9,
       "total_pistas": 12,
       "cancion": "Lluvia En La Tarde",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Recuerda cómo deseaba que lloviera en las tardes junto a su pareja, y ahora que ella se fue, la lluvia llega y le resulta irónica. Transmite melancolía, ironía y añoranza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1546,8 +1546,8 @@
       "pista": 10,
       "total_pistas": 12,
       "cancion": "Presiento",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un presentimiento de amor lo invade: pese al temor a lo desconocido, cree que amará como nunca y alcanzará todo lo que soñó. Transmite ilusión, entusiasmo y una alegría intensa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1558,8 +1558,8 @@
       "pista": 11,
       "total_pistas": 12,
       "cancion": "Cuidado",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Advierte a su pareja que sabe que miente y que no está ciego; si lo deja, le advierte que se arrepentirá, porque él seguirá presente en su mente. Transmite advertencia, orgullo herido y una certeza amarga.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1570,8 +1570,8 @@
       "pista": 12,
       "total_pistas": 12,
       "cancion": "Antes",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Asegura que la esperaba desde antes de que el mundo existiera y de conocer su nombre; su amor parece anterior a todo. Transmite romanticismo soñador y ternura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1582,8 +1582,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Buscando Una Sonrisa",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre sale a buscar una sonrisa pura que dé sentido a su vida y está dispuesto a entregar sus besos y su destino a un amor que aún no llega. Transmite esperanza, sed de cariño e ilusión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1594,8 +1594,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Solo Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre solo pregunta a su pareja dónde está, porque los días sin ella parecen siglos. Le pide que regrese a su nido y que no empañe lo vivido. Transmite soledad, añoranza y una súplica tierna.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1606,8 +1606,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Llegaste a Mí",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre agradece la llegada de su pareja, a quien compara con la primavera en su vida, y le promete llenar sus días de flores y de amor hasta el final. Transmite alegría, ternura y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1642,8 +1642,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Dos Rosas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre entrega a su pareja dos rosas, una blanca y otra roja, que simbolizan pureza y pasión; le promete que su amor no morirá y que ella volverá a él. Transmite ternura, promesa y nostalgia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1666,8 +1666,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Cosas Imposibles",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre enumera gestos que siente imposibles para él, como tomar las manos de su amada o besarla. Siente que sus besos se marchitan antes de florecer. Transmite melancolía, timidez y un amor no correspondido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1678,8 +1678,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "La Primera Vez",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa que ella le ha enseñado a amar por primera vez y que quiere gritarlo al mundo; cada momento a su lado es una primera vez. Transmite emoción, felicidad y asombro.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1702,8 +1702,8 @@
       "pista": 1,
       "total_pistas": 11,
       "cancion": "De Pueblo En Pueblo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un trovador que recorría pueblos cantando, sin conocer el amor, se enamora y entrega su vida a una mujer que luego lo desengaña. Herido, decide volver a su vida errante, convencido de que amar duele. Transmite desencanto y amargura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1714,8 +1714,8 @@
       "pista": 2,
       "total_pistas": 11,
       "cancion": "Te Beso y Me Voy",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre le pide a su pareja que no se equivoque al elegir a otro, le desea felicidad y se despide sin reproches. Dice que se marcha sin llorar y le deja lo mejor de sí en un beso. Transmite generosidad dolorosa y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1726,8 +1726,8 @@
       "pista": 3,
       "total_pistas": 11,
       "cancion": "Este Viejo Corazón",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recuerda los besos y la mirada de su amada, que lo enloquecen y lo hacen sufrir. Su corazón, aunque viejo, la espera día y noche y le pide amor con insistencia. Transmite pasión intensa, anhelo y dependencia dolorosa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1738,8 +1738,8 @@
       "pista": 4,
       "total_pistas": 11,
       "cancion": "Camino Verde",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre vuelve al sendero que lleva a la ermita, donde antes caminaba con su amada, y reza para que ella regrese. Graba sus nombres en un árbol y llora en la colina mientras el paisaje parece apagarse. Transmite nostalgia, soledad y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1750,8 +1750,8 @@
       "pista": 5,
       "total_pistas": 11,
       "cancion": "Soy Como Quieres Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una persona que sufrió en silencio por no ser correspondida se ofrece a ser exactamente lo que su pareja desea. Confía en que, si la besa, la comprenderá mejor y verá que es quien necesita. Transmite entrega, deseo de ser aceptada y dolor contenido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1762,8 +1762,8 @@
       "pista": 6,
       "total_pistas": 11,
       "cancion": "Camina Caminador",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un viajero errante recibe ánimo para seguir sin rendirse ante el clima, las espinas ni las opiniones ajenas. Se le anima a perseverar hasta hallar un amor profundo. Transmite fortaleza, perseverancia y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1774,8 +1774,8 @@
       "pista": 7,
       "total_pistas": 11,
       "cancion": "El Solitario",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre vaga solo desde que su pareja lo dejó. Se ve como un vagabundo más que oculta su dolor sin pedir compasión. Transmite soledad, tristeza y orgullo herido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1786,8 +1786,8 @@
       "pista": 8,
       "total_pistas": 11,
       "cancion": "Cómo Extraño Mi Pueblo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un migrante añora su pueblo natal, con su gente sencilla y sus calles de piedra. Lo compara con una ciudad fría y falsa, y decide regresar. Transmite nostalgia y rechazo a la vida urbana.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1798,8 +1798,8 @@
       "pista": 9,
       "total_pistas": 11,
       "cancion": "Me Llaman Tonto",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre sufre por la ausencia de su amada y siente que otros lo ven como un tonto por seguir esperándola. Cada parte de su cuerpo la busca mientras pasa el tiempo. Transmite amor doloroso y obstinado.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1810,8 +1810,8 @@
       "pista": 10,
       "total_pistas": 11,
       "cancion": "Quémame Los Ojos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre suplica a su amada que vuelva a mirarlo y besarlo, para que sus caricias espanten la tristeza. Confiesa un amor que lo lleva al borde de la desolación. Transmite súplica y deseo de reconciliación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1822,8 +1822,8 @@
       "pista": 11,
       "total_pistas": 11,
       "cancion": "Solo Yo Seguiré Siendo Tuyo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre jura que seguirá siendo solo de su amada, aun cuando ella pierda su encanto y nadie la recuerde. Imagina que al final su amor cantará de alegría. Transmite lealtad, orgullo y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1834,8 +1834,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Cuando Tú Me Quieras",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un enamorado sueña con ser correspondido y promete a su amada gestos grandiosos, como arrancar las estrellas del cielo para regalárselas. Imagina que la naturaleza celebrará ese momento. Transmite ilusión, romanticismo y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1846,8 +1846,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Tonto",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre enamorado se siente ridiculizado por quienes creen que su pareja no lo quiere. Sabe que lo engaña, pero prefiere disfrutar de su compañía. Transmite pasión, resignación y orgullo herido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1882,8 +1882,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Que Tengas Suerte",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre abandonado por su pareja, sin noticias de ella desde su partida, le desea de corazón que la vida la trate bien. Le pide que no tema y que no desconfíe del mundo ni del amor. Transmite generosidad, resignación y nostalgia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1942,8 +1942,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Es Mejor Soñar",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se reprocha haber insistido demasiado mientras su pareja se aleja cada vez más. Le pide que regrese, pero al final acepta que es mejor olvidar y soñar, aunque siga buscándola en sus sueños. Transmite desesperación, culpa y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1954,8 +1954,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Hasta Que Vuelvas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre espera el regreso de su amada y promete conservar su risa, su llanto y su presencia mientras ella no vuelva. Dice que detendrá el tiempo para que nadie toque lo que ella dejó. Transmite espera, nostalgia y amor fiel.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1978,8 +1978,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Mañana No",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre insiste en que el mañana no está garantizado y pide a su pareja mostrarle su amor en el presente. Quiere vivir cada instante sin esperar. Transmite urgencia, pasión y temor a perder la oportunidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1990,8 +1990,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Yo Te Amaré",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre promete a su pareja un amor tan intenso que ella no podrá igualarlo, con besos que la harán estremecerse entre llamas de deseo. Transmite pasión desbordada, deseo y entrega total.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2014,8 +2014,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Tus Ojos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recuerda el instante en que vio por primera vez los ojos de su amada y supo que era amor. Le pide que la mire una vez más antes de irse. Transmite admiración, nostalgia y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2038,8 +2038,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Ya Viví",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre herido por una relación dolorosa pide a su pareja que se vaya para siempre. Se siente usado y decide perdonar y olvidar. Transmite dolor, rencor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2074,8 +2074,8 @@
       "pista": 1,
       "total_pistas": 11,
       "cancion": "Cada Mañana",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre promete a su pareja días nuevos, llenos de aventuras y libertad, si ella se queda a su lado. Asegura que cada amanecer traerá ilusión renovada. Transmite entusiasmo y promesa de amor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2098,8 +2098,8 @@
       "pista": 3,
       "total_pistas": 11,
       "cancion": "Es Que Te Quiero",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una mujer llega a la vida del narrador y transforma su soledad en un amor que otros no entienden. Él, herido y orgulloso, le suplica que regrese. Transmite pasión dolorida y súplica.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2122,8 +2122,8 @@
       "pista": 5,
       "total_pistas": 11,
       "cancion": "Alguien Que Te Extraña",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre escribe de madrugada una carta a su antigua pareja. Creía que la distancia lo haría olvidarla, pero la ausencia le reveló que aún la ama. Transmite nostalgia, arrepentimiento y amor persistente.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2134,8 +2134,8 @@
       "pista": 6,
       "total_pistas": 11,
       "cancion": "Estábamos Juntos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un narrador recuerda una tarde gris en la que su tristeza se convirtió en amor por la persona que lo acompañaba. Evoca la unión de ambos, como si fuera eterna. Transmite nostalgia, ternura y sentido de unión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2146,8 +2146,8 @@
       "pista": 7,
       "total_pistas": 11,
       "cancion": "Vive",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre suplica a su amada que siga adelante, mientras sus ansias se pierden esperando su amor y la tarde avanza sin ella. Transmite melancolía, anhelo y una súplica desesperada.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2170,8 +2170,8 @@
       "pista": 9,
       "total_pistas": 11,
       "cancion": "Tú Mi Delirio",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa que su amor es tan intenso que roza el delirio y que solo es feliz junto a ella. Se siente dichoso al saber que también es correspondido. Transmite pasión y alegría.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2182,8 +2182,8 @@
       "pista": 10,
       "total_pistas": 11,
       "cancion": "Y Háblame",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a su amada que le hable cuando le falte una ilusión o sienta frío en el corazón, porque ninguna distancia le impide llegar a su lado. Transmite anhelo, ternura y dependencia emocional.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2194,8 +2194,8 @@
       "pista": 11,
       "total_pistas": 11,
       "cancion": "Cuando El Amor Se Va de Casa",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre encuentra en la sala fotos y objetos de su ex pareja, que se fue hace tres años. La nostalgia lo rodea, y reflexiona que el amor no termina, solo se muda a otro lugar. Transmite nostalgia, tristeza y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2206,8 +2206,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Divina Ilusión",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre lamenta que su sueño de amor no se haya cumplido y siente que su alma se desgarra sin las caricias de su pareja. Le pide que le dé la esperanza de ser suyo algún día. Transmite anhelo, dolor y súplica.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2218,8 +2218,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Sentimientos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa tener sentimientos encontrados tras perder un amor, con llanto interminable y deseos de olvidar. Siente que nunca estuvo realmente cerca de la persona amada. Transmite confusión, tristeza y vacío emocional.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2254,8 +2254,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Hoy Vuelvo a Ser... El Triste",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se siente de nuevo solo y abandonado desde que su pareja se fue, perdido y sin rumbo. Vuelve a su antigua tristeza y a vivir apartado del mundo. Transmite soledad, desolación y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2290,8 +2290,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Porque Yo No Soy Poeta",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa que no sabe expresar su amor con poemas, pero asegura que sus gestos sencillos harán olvidar a su pareja a su antiguo amor. Transmite humildad, ternura y sinceridad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2302,8 +2302,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Tú y Yo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja se siente como el mundo entero, sin que nadie interfiera en su amor. Imaginan transformar el mundo a su medida, y que el invierno se convierta en primavera gracias a su unión. Transmite exaltación romántica, complicidad y optimismo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2314,8 +2314,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Alas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un creyente se dirige a Dios con serenidad y confianza, aceptando que la vida terminará algún día. Espera llegar a un lugar de paz y música infinita, donde está su amigo ya fallecido. Transmite fe, paz y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2338,8 +2338,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Remate",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre ofrece vender todo lo que tiene, incluso su corazón, a cambio de amor. Pide a su pareja que le dé lo que pueda, aunque sea una noche juntos o una estrella. Transmite entrega, orgullo herido y deseo apasionado.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2350,8 +2350,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Mil Gracias Por Tu Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre acepta con dolor que su amor ha terminado y le agradece todo lo vivido. Le pide que siga su camino sin mirar atrás. Transmite resignación, gratitud y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2398,8 +2398,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Tu Melodía",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja vive un momento de intimidad en el que sobran las palabras y basta la cercanía de los cuerpos. Él pide silencio para escuchar la respiración de su amada. Transmite deseo, cercanía y pasión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2410,8 +2410,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "El Príncipe",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre imagina un romance de cuento en el que llega con flores y caricias para conquistar a su amada. Confía en que ella se enamorará de él si se deja llevar por la fantasía. Transmite ilusión y romanticismo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2470,8 +2470,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Adiós, Princesa",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se despide de su antigua pareja, que ahora es novia de otro, con una mezcla de ironía y dolor. Le desea lo mejor, aunque le duela verla feliz sin él. Transmite despecho, dolor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2482,8 +2482,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Tú Ganas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce que se rinde ante una pareja que intenta provocar celos para dominarlo. Le pide que no abuse de su amor y que deje de hacerle daño. Transmite resignación, dolor y cansancio emocional.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2506,8 +2506,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "De Hombre a Hombre",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre aconseja a otro, de igual a igual, que luche por una mujer que ya ha sido de alguien más, sin preocuparse por el pasado. Le pide que la trate bien y la haga feliz. Transmite complicidad, consejo y decisión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2518,8 +2518,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Disimula",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja clandestina pide a su amante que finja indiferencia ante los demás para no levantar sospechas. Transmite tensión, deseo contenido y complicidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2542,8 +2542,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "¿Estás Segura?",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre celoso interroga a su pareja sobre si realmente ya no lo extraña y si sigue pensando en él mientras está con otro. Le pide que lo mire, con un tono de reproche y dolor. Transmite celos, inseguridad y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2554,8 +2554,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "¿Qué Hay de Malo En Ser Extraños?",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se siente atraído por una desconocida y le propone que, pese a no conocerse, ella siente lo mismo que él. Asegura que el amor puede surgir sin pasado ni nombre. Transmite atracción, osadía y deseo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2566,8 +2566,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Amantes",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre agradece a quienes lo acompañaron tras sus fracasos amorosos, pues le dieron fuerza para sobrevivir. Sabe que nunca los olvidará. Transmite gratitud, nostalgia y ternura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2590,8 +2590,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Más",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre defiende a su pareja frente a los rumores y el desprecio ajeno, afirmando que la amará aún más cuanto más la juzguen. Su amor no depende de lo que digan. Transmite lealtad, desafío y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2602,8 +2602,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Pruébame",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se acerca a una mujer que lo ignora y le pide solo una oportunidad sin compromiso para demostrarle lo que siente. Transmite insistencia, deseo y seducción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2614,8 +2614,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Muchacho",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre advierte a otro que no se acerque a la mujer que ama, reafirmando que es su protector y que le pertenece en el corazón. Está dispuesto a luchar hasta el final. Transmite celos, protección y determinación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2626,8 +2626,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Solo Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre asegura que, pese a lo que dicen sobre la rutina en la pareja, para él solo existe una persona. Exalta todo lo que ama de ella. Transmite pasión, fidelidad y admiración.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2638,8 +2638,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Tú Me Estás Volviendo Loco",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre sufre por una relación inestable, en la que su pareja va y viene según su conveniencia. Se siente atrapado entre el amor y el dolor, sin poder alejarse de ella. Transmite angustia, dependencia y dolor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2650,8 +2650,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Promesas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un narrador reflexiona sobre cómo el amor se apaga con el tiempo, y las promesas de eternidad pierden sentido. Describe el vacío de intentar sentir lo que ya no se siente. Transmite desencanto y melancolía.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2662,8 +2662,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Lástima",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a una mujer que deje de tentarlo, porque la desea y se siente indefenso ante su coqueteo. Lamenta no poder estar con ella. Transmite deseo contenido y frustración.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2686,8 +2686,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Corre y Ve Con Él",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confronta a su pareja porque sabe que le miente y ya no siente lo mismo. La anima a irse con el otro, reconociendo que ha perdido, pero le desea suerte. Transmite decepción, orgullo herido y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2698,8 +2698,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Dos Amores",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa sentir amor por dos personas a la vez, sin sentirse culpable, y no poder dejar de amar a ninguna. Teme tener que elegir y pide a su corazón que resista. Transmite conflicto interior, angustia y culpa resignada.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2710,8 +2710,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Y Quién Puede Ser",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre nota que su pareja se aleja, distraída e indiferente, y se pregunta quién ha ocupado su lugar en el corazón de ella. Se siente desplazado y con inseguridad. Transmite celos, sospecha y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2722,8 +2722,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Por Estar Contigo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre declara que, por estar junto a su amada, se convertiría en cualquier elemento de la naturaleza que ella fuera. Transmite entrega total, ternura y romanticismo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2734,8 +2734,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Por Ti Me Muero",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre sufre porque la pasión por su pareja lo consume, entre celos y un juego sentimental que lo hiere, y duda si debe quererla o dejarla. Transmite dependencia, angustia y deseo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2746,8 +2746,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Él Es Tu Hombre",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce ser el amante de una mujer casada con otro. Le advierte que no intente darle celos y le pide, con ironía, que cuando estén juntos no pronuncie su nombre. Transmite ironía, dolor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2758,8 +2758,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Sin Saber",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre descubre que su pareja tenía a otro en su vida, aunque él se entregó sin saberlo. Siente que vivió un sueño y se pregunta qué hará ahora que ella ama a otro. Transmite desconcierto, dolor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2770,8 +2770,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Cuando Un Amor Se Muere",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reflexiona sobre un amor que se apagó poco a poco, sin que nadie sepa por qué. Queda un sabor amargo de despedida. Transmite desencanto, melancolía y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2782,8 +2782,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Marionetas Del Destino",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se ve como un viajero que nunca se queda, movido por el destino como una marioneta. Reflexiona sobre la vida que se pierde en los caminos. Transmite nostalgia y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2794,8 +2794,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Vuelve a Ser Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reprocha a su pareja que, con el éxito y la vanidad, ha olvidado su origen y a sus amigos. La exhorta a dejar la arrogancia y a recuperar su esencia. Transmite reproche, desilusión y consejo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2806,8 +2806,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Vergüenza Me Da Quererte",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se avergüenza de amar a una mujer, porque traicionó a alguien que lo consideraba como un hermano. Reconoce su culpa, aunque la trampa fue de ella. Transmite vergüenza, culpa y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2818,8 +2818,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Ni En Un Millón de Años",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre le asegura a su amada que nadie la amará como él y que, al desengañarse de sus ilusiones, reconocerá que él fue el mejor. Transmite seguridad, orgullo y pasión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2830,8 +2830,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Cobarde",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce que oculta su amor por miedo y se siente cobarde por no atreverse a mostrarlo. Anhela escapar con ella, pero no sabe cómo. Transmite miedo, anhelo y frustración.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2842,8 +2842,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Cinco Minutos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre desea un momento de honestidad consigo mismo: mirarse sin máscaras, reflexionar sobre sus errores y preguntarse qué busca en la vida. Transmite introspección, cansancio y deseo de autenticidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2854,8 +2854,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Salúdamela Mucho",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se dirige con ironía a un viejo amigo que tuvo una relación con su antigua pareja, diciéndole que la saluda y que no le guarda rencor. Transmite ironía, rencor disimulado y resentimiento.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2866,8 +2866,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Soy Así",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre rechaza que su pareja lo idealice y reconoce sus defectos, asegurando que nunca la engañó. Acepta su destino y se considera libre. Transmite franqueza, orgullo y rebeldía.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2878,8 +2878,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Si Te Parece Poco",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre enumera todos los sacrificios que ha hecho por su pareja, como dejar su vida atrás, aguantar miradas y renunciar a sus cosas, y pregunta si eso no basta. Transmite reproche, dolor y entrega.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2890,8 +2890,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Quiero Morir En Tu Piel",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa que su pareja lo ha hechizado y que, pese a huirle, solo desea su cuerpo. Se siente abrumado por una pasión intensa. Transmite deseo intenso y confusión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2902,8 +2902,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "La Estrella",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recuerda a una bailarina que lo cautivó en un antro, y que hoy es una estrella admirada por todos. Siente que la perdió por darle demasiado. Transmite nostalgia y pérdida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2914,8 +2914,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Mi Hembra",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre acepta con orgullo que su pareja es su destino, aunque otros lo critiquen. La ama por instinto y no le importan los juicios ajenos. Transmite pasión y desafío.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2938,8 +2938,8 @@
       "pista": 2,
       "total_pistas": 11,
       "cancion": "Seguiré Mi Viaje",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se despide de su pareja porque siente que ella no valora su amor, y decide seguir su camino aunque le duela. Dice que se va con orgullo, sin pedir perdón. Transmite dolor, orgullo y determinación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2950,8 +2950,8 @@
       "pista": 3,
       "total_pistas": 11,
       "cancion": "Cancionero",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a un cantante que, si ve a su amada, le diga que él es feliz y que sigue pensando en ella, aunque en realidad esté muy triste. Transmite nostalgia, orgullo disimulado y anhelo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2962,8 +2962,8 @@
       "pista": 4,
       "total_pistas": 11,
       "cancion": "Como Un Lunar",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre acepta que todos tienen defectos y que nadie es perfecto, y pide a su pareja que vuelva porque sus errores no le importan. Dice que la quiere tal como es. Transmite perdón, ternura y aceptación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2986,8 +2986,8 @@
       "pista": 6,
       "total_pistas": 11,
       "cancion": "Sabrá Dios",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre duda si su pareja realmente lo quiere o lo engaña, y presiente que ella no está con él aunque esté a su lado. Decide luchar contra esa duda. Transmite inseguridad y angustia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2998,8 +2998,8 @@
       "pista": 7,
       "total_pistas": 11,
       "cancion": "Un Minuto de Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre asegura que su corazón está dispuesto a sacrificarse por ella y que un instante de afecto bastaría para traerle alegría. Transmite entrega, súplica y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3010,8 +3010,8 @@
       "pista": 8,
       "total_pistas": 11,
       "cancion": "Luz de Luna",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre añora a una mujer que se fue lejos y pide que su recuerdo ilumine sus noches tristes. Desde su partida, dice, la vida ha quedado a oscuras. Transmite nostalgia, melancolía y anhelo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3034,8 +3034,8 @@
       "pista": 10,
       "total_pistas": 11,
       "cancion": "No Te Vayas, No",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a su pareja que no lo abandone, porque la relación le ha devuelto la esperanza y lo ayudó a salir de un momento difícil. Sueña con llegar a la orilla juntos. Transmite súplica, gratitud y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3058,8 +3058,8 @@
       "pista": 1,
       "total_pistas": 11,
       "cancion": "Condenado",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se siente condenado por una mujer que jugó con sus sentimientos y le mintió sobre su partida. Vive pendiente de ella y ya no sabe quién es sin su amor. Transmite confusión y dolor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3070,8 +3070,8 @@
       "pista": 2,
       "total_pistas": 11,
       "cancion": "Como Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre que había perdido la esperanza sueña con una mujer que le devuelva el sentido de la vida, y al encontrarla siente que todo cambia. Transmite gratitud, ilusión y ternura.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3094,8 +3094,8 @@
       "pista": 4,
       "total_pistas": 11,
       "cancion": "Piel de Azúcar",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recuerda con nostalgia a una mujer que se fue lentamente, y siente que no puede olvidarla ni resignarse a perderla. Los días que pasaron juntos le duelen. Transmite nostalgia, dolor y resistencia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3106,8 +3106,8 @@
       "pista": 5,
       "total_pistas": 11,
       "cancion": "Me Voy",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se describe como alguien que va y viene sin rumbo fijo, sin apegarse a nada, y reconoce que da amor sin esperar nada a cambio. Transmite libertad, melancolía y desapego.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3130,8 +3130,8 @@
       "pista": 7,
       "total_pistas": 11,
       "cancion": "Tal Vez Por Nada",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre agradece el apoyo constante de su pareja, pero se siente tentado por otra mujer que reaviva su pasión y le exige decidir. Transmite gratitud, lealtad y conflicto interior.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3142,8 +3142,8 @@
       "pista": 8,
       "total_pistas": 11,
       "cancion": "Los Amantes",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre imagina un reencuentro con su antigua amante en cualquier lugar, para recordar sus momentos juntos y revivir la pasión. Desea abrazarla y detener el tiempo. Transmite nostalgia, deseo y anhelo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3154,8 +3154,8 @@
       "pista": 9,
       "total_pistas": 11,
       "cancion": "¿Qué Es El Amor?",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una canción se pregunta qué es el amor y lo describe como una mezcla de placer, libertad y entrega, pero también frágil y fácil de engañar. Transmite curiosidad, reflexión y advertencia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3178,8 +3178,8 @@
       "pista": 11,
       "total_pistas": 11,
       "cancion": "Qué No Daría Yo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre expresa que daría cualquier cosa por recuperar el amor de su pareja, sanar viejas heridas y volver a ser feliz. Desea que sus corazones renazcan sin rencores. Transmite anhelo, arrepentimiento y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3190,8 +3190,8 @@
       "pista": 1,
       "total_pistas": 11,
       "cancion": "Amnesia",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre escucha que fue amante de una mujer con la que vivió, pero dice no recordarla. Reconoce que quizá ella diga la verdad, aunque él no la recuerde. Transmite confusión, culpa y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3202,8 +3202,8 @@
       "pista": 2,
       "total_pistas": 11,
       "cancion": "Unos Quitan y Otros Dan",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se define como alguien que acepta la vida con sus altibajos, sin cambiar por los demás, y que siempre estará para sus amigos en las buenas y en las malas. Transmite sencillez, lealtad y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3238,8 +3238,8 @@
       "pista": 5,
       "total_pistas": 11,
       "cancion": "Atrapado",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre confiesa que ha caído en la red del amor de su pareja y que ya no quiere la vida nocturna y solitaria. Declara que despertar a su lado es lo que más desea. Transmite entrega, pasión y alegría.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3250,8 +3250,8 @@
       "pista": 6,
       "total_pistas": 11,
       "cancion": "Hay Un Mañana",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre busca a una pareja que se alejó tras un final doloroso, y cree que aún hay un mañana para recuperar su amor. Le pide que regrese y tome su mano. Transmite esperanza, añoranza y súplica.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3274,8 +3274,8 @@
       "pista": 8,
       "total_pistas": 11,
       "cancion": "Escuchando Ofertas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre anima a una persona que se fue muchas veces a volver a casa cuando el amor se presente, pues ya nadie le creerá sus promesas. Asegura que siempre la esperará. Transmite confianza, reproche y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3298,8 +3298,8 @@
       "pista": 10,
       "total_pistas": 11,
       "cancion": "Caso Común y Corriente",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre despierta triste y solo, extrañando a su pareja, y decide sorprenderla con un viaje para volver a sus brazos. Se siente común y corriente, pero profundamente enamorado. Transmite soledad, anhelo y emoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3310,8 +3310,8 @@
       "pista": 11,
       "total_pistas": 11,
       "cancion": "Uno Mismo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una reflexión sobre la vida: cada persona es responsable de su camino, de sus errores y de cómo se hunde o se levanta. Transmite sabiduría, responsabilidad y serenidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3334,8 +3334,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Así de Fácil",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre anuncia que un día se irá para siempre y que su pareja lo perderá sin remedio, aunque hasta ahora no ha tenido el valor de dejarla. Dice que pronto encontrará otro amor. Transmite despecho, dolor y determinación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3358,8 +3358,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Ando Volando Bajo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre describe su desánimo tras una ruptura: se siente agotado, desorientado y sin amigos. Lucha por sobrellevar su dolor. Transmite tristeza, desolación y cansancio.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3370,8 +3370,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Esta Noche",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reclama a su pareja que ya no finja miedo ni timidez, y le anuncia que esta noche la hará suya. Quiere beberse su amor entero. Transmite deseo, impaciencia y seducción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3382,8 +3382,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Cirano",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre ayuda a un amigo a conquistar a la mujer que él ama, y se convierte en testigo de su amor. Se siente cobarde por no declararse. Transmite resignación, dolor e ironía.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3394,8 +3394,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Cómo Le Haces (Esas Mujeres)",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reflexiona sobre las mujeres que marcaron su vida: amores, pasiones y dolores que siguen presentes en la memoria. Se pregunta cómo se olvida a esas mujeres. Transmite nostalgia, melancolía y reflexión.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3406,8 +3406,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Egoísta",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reclama a su pareja que se va sin importarle su sufrimiento y que juega con su amor. La llama egoísta. Transmite reproche, dolor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3418,8 +3418,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Por Qué No",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre intenta convencer a su expareja de volver, porque ella aún siente su ausencia y sabe que nada será igual sin su amor. Le propone reconsiderarlo y retomar la relación. Transmite insistencia, nostalgia y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3430,8 +3430,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Lo Que Quedó de Mí",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre explica que, tras entregarse por completo a su amor, quedó destrozado. Pide a su pareja que sea testigo de cómo ha quedado tras la ruptura. Transmite dolor, resignación y reproche.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3454,8 +3454,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Nadie Como Ella",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce que siempre fue infiel y que valoró poco a quien lo esperaba, pero hoy comprende que no existe nadie como ella. Agradece su entrega y su libertad. Transmite arrepentimiento, admiración y gratitud.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3478,8 +3478,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Mujer",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una canción celebra a la mujer como fuente de vida, comparando su cuerpo y su maternidad con ríos, mares y volcanes. La ensalza como oráculo de amor y pasión. Transmite admiración, sensualidad y reverencia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3502,8 +3502,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "La Barca de Nuestro Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se despide de su amada, que parte a otros mares, y le pide que no olvide cuidar su vida. Le asegura que la esperará cuando ella quiera volver. Transmite tristeza, amor fiel y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3526,8 +3526,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Déjalo Todo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre invita a su amada a dejar atrás su vida y sus problemas para navegar juntos hacia un nuevo horizonte. Le pide que permanezca cerca y que se desprenda de lo que la ata. Transmite entusiasmo, pasión y determinación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3550,8 +3550,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Me Olvidé de Olvidarte",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre dice que intentó empezar de nuevo sin su expareja, pero el recuerdo de su amor sigue golpeando su corazón. Reconoce que, pese a haberlo olvidado, aún lo duele. Transmite nostalgia, dolor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3562,8 +3562,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Mañana Sí",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre pide a su pareja que pase una última noche con él antes de marcharse, aunque sabe que la perderá. Le ruega que mienta diciendo que aún lo quiere. Transmite súplica, dolor y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3574,8 +3574,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Olvídame",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre decide terminar una relación que lo hace sufrir y pide a su pareja que lo olvide, porque ya no soporta vivir en ese infierno. Transmite determinación, dolor y cansancio.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3586,8 +3586,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "No Valió La Pena",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una pareja recapacita tras una discusión y reconoce que sus ofensas fueron inútiles. Advierte que el amor necesita cuidado para no marchitarse. Transmite arrepentimiento, ternura y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3598,8 +3598,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Llora Corazón",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recuerda a una mujer que se fue en silencio y pide a su corazón que llore en voz baja. Confiesa que no puede olvidarla y que aún deja la puerta abierta. Transmite nostalgia y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3610,8 +3610,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Mujeriego",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre defiende su forma de amar a muchas mujeres y afirma que las ama y las quiere a todas, sin importar lo que digan de él. Transmite orgullo, desenfado y afecto hacia ellas.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3622,8 +3622,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Bohemio",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre evoca su vida nocturna y sus aventuras con amigos, amores, serenatas y alegrías y dolores. Dice que seguirá siendo bohemio hasta el final de sus días. Transmite nostalgia, orgullo y alegría.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3634,8 +3634,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Dónde Andarás",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se arrepiente de haber dejado partir a su amada por orgullo, y la busca con angustia. Pregunta dónde estará y si lo perdonará para volver. Transmite arrepentimiento, nostalgia y angustia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3646,8 +3646,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "La Vida Pasa",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una canción retrata a una joven que, sin otra opción, se gana la vida de noche, mientras escribe a su familia cartas que ocultan su realidad. Transmite tristeza, compasión y crítica social.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3658,8 +3658,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Vas a Ver",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre intenta convencer a su pareja, que se va, de que pronto lo extrañará y que nadie la amará como él. Le anticipa la soledad que sentirá. Transmite reproche, dolor y certeza afectiva.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3670,8 +3670,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Dele Gracias a La Vida",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre aconseja a alguien que, pese a sus dificultades económicas y su desconfianza, no pierda la fe y agradezca a la vida lo que tiene. Transmite consuelo, esperanza y gratitud.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3694,8 +3694,8 @@
       "pista": 2,
       "total_pistas": 9,
       "cancion": "Triste Tarde Gris",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre, en una tarde lluviosa, recuerda a su amada y siente la lluvia como un recordatorio de lo que perdió. Le hace falta su calor y su abrazo. Transmite nostalgia, tristeza y añoranza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3718,8 +3718,8 @@
       "pista": 4,
       "total_pistas": 9,
       "cancion": "Cariño",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre sufre por una mujer que lo quiere a ratos y lo deja como un viento que va y viene. Se entrega sin medida y confiesa que ese amor le duele. Transmite dependencia, dolor y entrega.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3742,8 +3742,8 @@
       "pista": 6,
       "total_pistas": 9,
       "cancion": "Ojalá Que Te Mueras",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre, hundido en la desesperación tras una ruptura, describe un dolor tan profundo que lo deja sin fuerzas ni ánimo. Transmite desesperación, abatimiento y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3754,8 +3754,8 @@
       "pista": 7,
       "total_pistas": 9,
       "cancion": "Amar Sin Ser Amado",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre sabe que su pareja se va y reconoce que siempre amó más de lo que fue correspondido. Le duele que ella nunca lo haya querido de verdad. Transmite dolor, resignación y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3766,8 +3766,8 @@
       "pista": 8,
       "total_pistas": 9,
       "cancion": "Sin Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre siente que su vida pierde sentido sin su pareja y que su historia se acerca a su final, porque no sabe vivir sin ella. Transmite desesperanza, dependencia y tristeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3778,8 +3778,8 @@
       "pista": 9,
       "total_pistas": 9,
       "cancion": "Cómo Duele",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se despide de su pareja, que dijo hasta siempre sin volver. Siente que ya es parte del pasado y que duele saber que la ha perdido. Transmite dolor, nostalgia y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3790,8 +3790,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Cada Vez y Cada Vez",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre declara que cada encuentro con su pareja lo enamora más, y describe su entrega y su pasión mientras la naturaleza parece rendirse a ella. Transmite admiración, deseo y romanticismo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3802,8 +3802,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "Ya Lo Sabía",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce que intuía desde el inicio que la relación terminaría en desengaño, pero se entregó igual. Transmite resignación, desengaño e ironía.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3814,8 +3814,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Cómo Hacer Para Olvidar",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre canta en un bar de mariachis mientras la música lo ayuda a olvidar a una mujer que lo hizo sufrir. Se arrepiente de no haber hecho caso a una advertencia. Transmite tristeza y arrepentimiento.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3850,8 +3850,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Virgen de San Juan de Los Lagos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un devoto declara su amor a la Virgen de San Juan de los Lagos, a quien se arrodilla con fervor y compara con otras vírgenes. Transmite devoción, fervor y humildad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3862,8 +3862,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Necesito Un Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se siente solo y busca una pareja que lo quiera, lo entienda y le haga compañía, sin importar su apariencia. Transmite soledad, anhelo y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3874,8 +3874,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Es Un Ángel",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre se siente salvado por una mujer a la que considera un ángel, cuyo cariño alivia su cansancio y su sufrimiento. Transmite gratitud, admiración y alivio.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3886,8 +3886,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Como Ya No Me Amas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre decide irse lejos, sin avisar a nadie, tras descubrir que su pareja ya no lo ama. Le pide que no lo busque y le dice que nunca sabrá dónde está. Transmite orgullo herido, dolor y despedida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3910,8 +3910,8 @@
       "pista": 1,
       "total_pistas": 12,
       "cancion": "Libre Como Antes",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre que sufrió por un amor posesivo decide dejarlo atrás y vivir libre, en silencio y sin renunciar a su independencia. Confía en encontrar paz en su soledad. Transmite libertad, dolor y serenidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3922,8 +3922,8 @@
       "pista": 2,
       "total_pistas": 12,
       "cancion": "A Un Amigo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre agradece a un amigo fiel, en quien confía y con quien puede desahogar su dolor. Le promete luchar para no verlo caer. Transmite gratitud, lealtad y cariño.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3934,8 +3934,8 @@
       "pista": 3,
       "total_pistas": 12,
       "cancion": "Mi Testamento",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre escribe una carta para revelar a su amada lo que guardó durante años y le pide que lo recuerde siempre. Transmite sinceridad, nostalgia y entrega.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3946,8 +3946,8 @@
       "pista": 4,
       "total_pistas": 12,
       "cancion": "No Dudes Más",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre reconoce que su pareja duda de su amor, y le asegura que nunca dejará de quererla. Le confiesa que no puede soportar un día sin ella. Transmite certeza, ternura y entrega.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3958,8 +3958,8 @@
       "pista": 5,
       "total_pistas": 12,
       "cancion": "Hoy Te Esperaré",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre anticipa un encuentro íntimo con su pareja en su hogar, en la penumbra y a solas, con ganas de estar juntos sin interrupciones. Transmite deseo, anticipación y sensualidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3970,8 +3970,8 @@
       "pista": 6,
       "total_pistas": 12,
       "cancion": "Aún Estoy de Pie",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recibe una llamada arrepentida de su pareja, que antes se fue de su casa, pero decide no volver aunque la extrañe. Reconoce el daño recibido y se mantiene firme. Transmite orgullo, dolor y firmeza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3994,8 +3994,8 @@
       "pista": 8,
       "total_pistas": 12,
       "cancion": "El Más Feliz Del Mundo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre recuerda cómo la fortuna le dio la espalda y lo dejó con poco. Pese a ello, dice sentirse el más feliz al haber comprendido qué es la verdadera felicidad. Transmite serenidad y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -4006,8 +4006,8 @@
       "pista": 9,
       "total_pistas": 12,
       "cancion": "Mientes",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre descubre que su pareja le miente y, aunque siente odio y amor a la vez, confiesa que la seguirá amando igual. Transmite dolor, celos y una resignación amarga.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -4018,8 +4018,8 @@
       "pista": 10,
       "total_pistas": 12,
       "cancion": "Madrecita",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre honra a su madre como el refugio de sus penas y la fuente de su amor más verdadero, que ningún otro amor podrá igualar. Transmite gratitud, ternura y devoción.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -4030,8 +4030,8 @@
       "pista": 11,
       "total_pistas": 12,
       "cancion": "Caminante",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un viajero sin rumbo recuerda amores y momentos que dejó atrás, cada uno como una escala en su camino. Espera que el pasado se olvide con el tiempo. Transmite nostalgia, melancolía y resignación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {

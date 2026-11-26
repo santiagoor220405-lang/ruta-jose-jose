@@ -89,7 +89,6 @@ h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spa
 .desc{margin-top:12px;padding:12px 14px;border-left:3px solid #f3c565;background:rgba(243,197,101,.07);border-radius:0 8px 8px 0}
 .desc p{margin:0;font-size:15px;line-height:1.55;color:#f0e2d6}
 .desc .tag{margin-top:8px;font-size:13px;color:#d9b98a;font-style:italic}
-.has-d{color:var(--gold);font-size:13px;margin-left:4px}
 .pp{width:56px;height:56px;padding:0;justify-content:center;background:#f3c565;color:#2b0a12;font-size:22px}
 .pp:hover{background:#ffd884}
 .prog{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:13px;color:#d9b98a;font-variant-numeric:tabular-nums}
@@ -340,7 +339,7 @@ function albumHTML(i) {
         ${a.s.map((s, j) => `<li data-k="${key(i, j)}">
           <input type="checkbox" aria-label="Escuchada: ${esc(s[0])}">
           <span class="n">${j + 1}.</span>
-          <button type="button" data-a="${i}" data-s="${j}" title="Reproducir">${esc(s[0])}${s[2] ? ' <span class="star" title="Ya la conoces">★</span>' : ""}${DESC[key(i, j)] ? ' <span class="has-d" title="Tiene descripción en el reproductor">✦</span>' : ""}</button>
+          <button type="button" data-a="${i}" data-s="${j}" title="Reproducir">${esc(s[0])}${s[2] ? ' <span class="star" title="Ya la conoces">★</span>' : ""}</button>
         </li>`).join("")}
       </ol>
     </div>
