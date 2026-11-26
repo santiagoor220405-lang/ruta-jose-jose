@@ -15,6 +15,7 @@
 <style>
 :root{color-scheme:light dark;--wine:#6d1c2e;--gold:light-dark(#a87408,#e0ac3a);--bg:light-dark(#fbf8f3,#160d10);--card:light-dark(#f5ede2,#21141a);--ink:light-dark(#241a1c,#f2e9e3);--mute:light-dark(#6e6064,#b8a9ad);--line:light-dark(#e4d7c7,#3a2830);--ok:light-dark(#2f7a46,#6fcf8e);--rose:light-dark(#6d1c2e,#f0b9c4)}
 *{box-sizing:border-box;min-width:0}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font:16px/1.55 "Work Sans",system-ui,sans-serif;overflow-x:clip;margin:0}
 h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spacing:-.01em;line-height:1.08;margin:0}
@@ -72,9 +73,28 @@ h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spa
 .ic:hover{background:#4a1520}
 .yt{background:transparent;color:#ddc3a0;font-size:14px;padding:10px 8px;text-decoration:underline;text-underline-offset:3px}
 .btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
-.auto{display:flex;align-items:center;gap:8px;font-size:14px;color:#e6d4c4;cursor:pointer;margin-top:6px;flex-basis:100%}
+.auto{display:flex;align-items:center;gap:8px;font-size:14px;color:#e6d4c4;cursor:pointer}
 .auto input{width:18px;height:18px;accent-color:#f3c565}
 .toast{margin-top:8px;font-size:14px;color:#f3c565;min-height:20px}
+.toast a{color:#fff}
+.pp{width:56px;height:56px;padding:0;justify-content:center;background:#f3c565;color:#2b0a12;font-size:22px}
+.pp:hover{background:#ffd884}
+.prog{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:13px;color:#d9b98a;font-variant-numeric:tabular-nums}
+.prog input{flex:1;accent-color:#f3c565;height:24px;cursor:pointer}
+.row2{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin-top:8px}
+.kbd{font-size:13px;color:#b99a8c;margin-top:6px}
+.mini{position:fixed;left:0;right:0;bottom:0;z-index:20;background:#1f070d;color:#fbf1e6;border-top:1px solid #6e2a3a;padding:10px max(5vw,16px) calc(10px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;transform:translateY(110%);transition:transform .25s;box-shadow:0 -6px 24px rgba(0,0,0,.35)}
+.mini.show{transform:none}
+.mbar{position:absolute;left:0;right:0;top:-1px;height:3px;background:#4a1520}
+.mbar b{display:block;height:100%;width:0;background:#f3c565}
+.mt{all:unset;cursor:pointer;display:grid;min-width:0}
+.mt strong{font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mt small{font-size:13px;color:#d9b98a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mt:focus-visible{outline:2px solid #fff}
+.mc{display:flex;gap:6px;align-items:center}
+.mc .pp{width:46px;height:46px;min-height:46px;font-size:18px}
+.mc .ic{padding:8px 12px;min-height:42px}
+body.has-mini{padding-bottom:84px}
 
 /* guide */
 .how{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
@@ -181,11 +201,16 @@ footer a{color:var(--rose)}
       </div>
       <div class="ctl">
         <button class="btn ic" id="npPrev" type="button" aria-label="Canción anterior">⏮</button>
-        <button class="btn nx" id="npDone" type="button">✓ Escuchada, siguiente</button>
+        <button class="btn pp" id="npPlay" type="button" aria-label="Reproducir">▶</button>
         <button class="btn ic" id="npNext" type="button" aria-label="Canción siguiente">⏭</button>
-        <a class="btn yt" id="npYt" href="#" target="_blank" rel="noopener">Abrir en YouTube ↗</a>
-        <label class="auto"><input type="checkbox" id="autoMark" checked> Marcar al terminar</label>
+        <button class="btn nx" id="npDone" type="button">✓ Escuchada, siguiente</button>
       </div>
+      <div class="prog"><span id="tCur">0:00</span><input type="range" id="seek" min="0" max="1000" value="0" aria-label="Avance de la canción"><span id="tDur">0:00</span></div>
+      <div class="row2">
+        <label class="auto"><input type="checkbox" id="autoMark" checked> Marcar al terminar</label>
+        <a class="btn yt" id="npYt" href="#" target="_blank" rel="noopener">Abrir en YouTube ↗</a>
+      </div>
+      <p class="kbd">Teclado: espacio para pausar · ← → para cambiar de canción</p>
       <div class="toast" id="toast"></div>
       </div>
     </div>
@@ -199,7 +224,7 @@ footer a{color:var(--rose)}
       <p><b>1. Un álbum a la vez, completo y en orden.</b>Las canciones están en el orden original del disco, tal como José José y su productor las ordenaron. No uses aleatorio.</p>
       <p><b>2. Dos vueltas por álbum.</b>La primera, solo escuchando. La segunda, con la letra: anota quién la compuso y la frase que te quieras llevar para la vida.</p>
       <p><b>3. Marca cada canción.</b>Se marca sola cuando termina en el reproductor, o puedes marcarla tú. Al completar un disco, el álbum queda escuchado. Las canciones con <span class="star">★</span> son las que ya conoces: fíjate cómo suenan dentro de su disco.</p>
-      <p><b>4. Dale play y déjalo correr.</b>Al terminar una canción sigue la próxima del disco, y al acabar el disco pasa al siguiente de la ruta. Un disco dura entre 30 y 45 minutos.</p>
+      <p><b>4. Dale play y déjalo correr.</b>Al terminar una canción sigue la próxima del disco, y al acabar el disco pasa al siguiente de la ruta. Mientras bajas por la lista, el reproductor te acompaña abajo. Un disco dura entre 30 y 45 minutos.</p>
     </div>
     <p class="why">¿Por qué este orden y no el cronológico? Porque empezar por sus discos de 1969–1976 puede desanimarte: son buenos, pero todavía se está buscando. Primero conoces su esplendor y luego vuelves al origen con el oído entrenado para notar cómo creció.</p>
   </div>
@@ -220,6 +245,16 @@ footer a{color:var(--rose)}
     </footer>
   </div>
 </main>
+
+<div class="mini" id="mini" aria-label="Mini reproductor">
+  <i class="mbar"><b id="mProg"></b></i>
+  <button class="mt" id="mGo" type="button" title="Ir al reproductor"><strong id="mSong"></strong><small id="mAlb"></small></button>
+  <div class="mc">
+    <button class="btn ic" id="mPrev" type="button" aria-label="Canción anterior">⏮</button>
+    <button class="btn pp" id="mPlay" type="button" aria-label="Reproducir">▶</button>
+    <button class="btn ic" id="mNext" type="button" aria-label="Canción siguiente">⏭</button>
+  </div>
+</div>
 
 <script>
 {
@@ -315,6 +350,8 @@ function renderNow() {
   $("npYt").href = `https://www.youtube.com/watch?v=${s[1]}&list=${a.pl}`;
   $("coverSong").textContent = s[0];
   $("coverAlb").textContent = `${a.t} · ${a.y}`;
+  $("mSong").textContent = s[0];
+  $("mAlb").textContent = `${num(cur.a)}. ${a.t} · ${a.y}`;
 }
 
 /* ---------- state ---------- */
@@ -332,7 +369,11 @@ function firstPending() {
   return {a: ORDER[0], s: 0};
 }
 let toastT;
-function toast(msg) { $("toast").textContent = msg; clearTimeout(toastT); toastT = setTimeout(() => $("toast").textContent = "", 6000); }
+function toast(msg, link) {
+  const el = $("toast"); el.textContent = msg;
+  if (link) { const a = document.createElement("a"); a.href = link; a.target = "_blank"; a.rel = "noopener"; a.textContent = " Escúchala en YouTube ↗"; el.appendChild(a); }
+  clearTimeout(toastT); toastT = setTimeout(() => el.textContent = "", link ? 12000 : 6000);
+}
 function setHeard(i, j, on) {
   const was = albumDone(i);
   if (on) heard[key(i, j)] = 1; else delete heard[key(i, j)];
@@ -347,20 +388,33 @@ function step(dir) {
 }
 
 /* ---------- YouTube player ---------- */
-let player = null, ready = false, wantPlay = false;
+let player = null, ready = false, wantPlay = false, started = false, playing = false, seeking = false, errRun = 0, deckSeen = true;
 function vid() { return A[cur.a].s[cur.s][1]; }
+const fmt = x => { x = Math.max(0, Math.floor(x || 0)); return Math.floor(x / 60) + ":" + String(x % 60).padStart(2, "0"); };
 function clearErr() { const e = document.querySelector(".screen .err"); if (e) e.remove(); }
+function setPlaying(v) {
+  playing = v;
+  for (const id of ["npPlay", "mPlay"]) { $(id).textContent = v ? "⏸" : "▶"; $(id).setAttribute("aria-label", v ? "Pausar" : "Reproducir"); }
+}
+function resetProg() { $("seek").value = 0; $("tCur").textContent = "0:00"; $("tDur").textContent = "0:00"; $("mProg").style.width = "0"; }
 function play() {
   clearErr();
+  started = true;
   $("cover").hidden = true;
+  updateMini();
+  resetProg();
   if (ready) player.loadVideoById(vid());
   else { wantPlay = true; ensureApi(); }
+}
+function togglePlay() {
+  if (!started) return play();
+  if (!ready) return;
+  if (playing) player.pauseVideo(); else player.playVideo();
 }
 function go(dir, mark) {
   if (mark) setHeard(cur.a, cur.s, true);
   step(dir); save(); renderProgress();
-  if (!$("cover").hidden) return; // player not started yet: just move
-  play();
+  if (started) play();
 }
 function ensureApi() {
   if (window.YT && window.YT.Player) return createPlayer();
@@ -375,11 +429,23 @@ function createPlayer() {
   if (player) return;
   player = new YT.Player("yt", {
     videoId: vid(),
-    playerVars: {playsinline: 1, rel: 0, autoplay: wantPlay ? 1 : 0},
+    playerVars: {playsinline: 1, rel: 0},
     events: {
-      onReady: () => { ready = true; if (wantPlay) { wantPlay = false; player.playVideo(); } },
-      onStateChange: e => { if (e.data === YT.PlayerState.ENDED) go(1, autoMark); },
-      onError: () => showErr("Esta canción no se puede reproducir aquí.")
+      onReady: () => { ready = true; if (wantPlay) { wantPlay = false; player.loadVideoById(vid()); } },
+      onStateChange: e => {
+        const S = YT.PlayerState;
+        if (e.data === S.PLAYING) { setPlaying(true); errRun = 0; if (!started) { started = true; $("cover").hidden = true; updateMini(); } }
+        else if (e.data === S.PAUSED) setPlaying(false);
+        else if (e.data === S.ENDED) { setPlaying(false); go(1, autoMark); }
+      },
+      onError: () => {
+        const s = A[cur.a].s[cur.s], link = `https://www.youtube.com/watch?v=${s[1]}`;
+        setPlaying(false);
+        errRun++;
+        if (errRun >= 4) { errRun = 0; showErr("Varias canciones seguidas no se pudieron reproducir aquí."); return; }
+        toast(`«${s[0]}» no se puede reproducir aquí, sigo con la próxima.`, link);
+        setTimeout(() => go(1, false), 1800);
+      }
     }
   });
 }
@@ -390,6 +456,30 @@ function showErr(msg) {
   d.innerHTML = `<div><p>${esc(msg)}</p><p><a href="${esc($("npYt").href)}" target="_blank" rel="noopener">Escúchala en YouTube ↗</a> y luego pulsa «Escuchada, siguiente».</p></div>`;
   document.querySelector(".screen").appendChild(d);
 }
+setInterval(() => {
+  if (!ready || !started || seeking) return;
+  const c = player.getCurrentTime ? player.getCurrentTime() : 0, d = player.getDuration ? player.getDuration() : 0;
+  $("tCur").textContent = fmt(c); $("tDur").textContent = fmt(d);
+  const r = d ? c / d : 0;
+  $("seek").value = Math.round(r * 1000);
+  $("mProg").style.width = (r * 100) + "%";
+}, 500);
+$("seek").addEventListener("input", () => {
+  seeking = true;
+  const d = ready && player.getDuration ? player.getDuration() : 0;
+  $("tCur").textContent = fmt(d * $("seek").value / 1000);
+});
+$("seek").addEventListener("change", () => {
+  const d = ready && player.getDuration ? player.getDuration() : 0;
+  if (started && d) player.seekTo(d * $("seek").value / 1000, true);
+  seeking = false;
+});
+function updateMini() {
+  const show = started && !deckSeen;
+  $("mini").classList.toggle("show", show);
+  document.body.classList.toggle("has-mini", show);
+}
+new IntersectionObserver(es => { deckSeen = es[0].isIntersecting; updateMini(); }, {threshold: 0.15}).observe($("deck"));
 
 /* ---------- events ---------- */
 document.addEventListener("click", e => {
@@ -409,6 +499,21 @@ document.addEventListener("change", e => {
   setHeard(i, j, e.target.checked); renderProgress();
 });
 $("cover").addEventListener("click", play);
+$("npPlay").addEventListener("click", togglePlay);
+$("mPlay").addEventListener("click", togglePlay);
+$("mPrev").addEventListener("click", () => go(-1, false));
+$("mNext").addEventListener("click", () => go(1, false));
+$("mGo").addEventListener("click", () => $("deck").scrollIntoView({behavior: "smooth", block: "center"}));
+document.addEventListener("keydown", e => {
+  if (e.altKey || e.ctrlKey || e.metaKey) return;
+  const tag = e.target.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+  if (e.key === " " || e.code === "Space") {
+    if (tag === "BUTTON" || tag === "A") return;
+    e.preventDefault(); togglePlay();
+  } else if (e.key === "ArrowRight") { e.preventDefault(); go(1, false); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); go(-1, false); }
+});
 $("npDone").addEventListener("click", () => go(1, true));
 $("npNext").addEventListener("click", () => go(1, false));
 $("npPrev").addEventListener("click", () => go(-1, false));
