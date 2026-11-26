@@ -22,8 +22,8 @@
       "pista": 2,
       "total_pistas": 12,
       "cancion": "El Día Más Triste Del Mundo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Al despertar y no encontrar sus manos, él sabe que le espera un día de llanto, aunque afuera brille el sol. Un cabello, su perfume y el espejo vacío le recuerdan la ausencia. Transmite el duelo cotidiano tras una separación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -118,8 +118,8 @@
       "pista": 10,
       "total_pistas": 12,
       "cancion": "Mirar El Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Reflexión sobre lo que de verdad vale: aunque tuvieras todos los bienes del mundo, para amar la vida primero te enseña a llorar, y en esas lágrimas aprendes a ver el amor. Transmite sabiduría serena y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -130,8 +130,8 @@
       "pista": 11,
       "total_pistas": 12,
       "cancion": "Avalancha",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Mientras todos corren a conseguir paz, cariño y amor, él casi pierde la esperanza de encontrar calor. Pide una avalancha de ternura y confía en que algún día llegará. Transmite soledad, pero también optimismo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -178,8 +178,8 @@
       "pista": 3,
       "total_pistas": 12,
       "cancion": "La Noche de Los Dos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Retrato sensual de una noche de amor hecho de imágenes: boca de siempre antojo, manos de nunca olvido, cuerpo de lenta entrega. Transmite deseo e intimidad con un lenguaje casi poético.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -190,8 +190,8 @@
       "pista": 4,
       "total_pistas": 12,
       "cancion": "Llegará",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él está seguro de que llegará el día en que ella lo quiera solo a él; aunque tarde un poco, llegará, si no se vuelve loco esperando. Transmite anhelo, obsesión amorosa y una esperanza que no se rinde.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -250,8 +250,8 @@
       "pista": 9,
       "total_pistas": 12,
       "cancion": "Amoras",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Inventa un verbo, «amorar», para decir que ella llena de amor todo lo que toca, escucha o mira, hasta el aire que respira. Transmite admiración tierna, casi mística, por la persona amada.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -430,8 +430,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "O Tú o Yo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre inseguro, que se siente un fracaso, quiere encerrar a su pareja para que no lo deje por otro. Transmite celos posesivos y miedo al abandono: un retrato incómodo de un amor que asfixia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -574,8 +574,8 @@
       "pista": 4,
       "total_pistas": 11,
       "cancion": "Hoy Que Faltas Tú",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Desde que ella se fue, todo lo que antes le parecía maravilloso cambió, y él se convence de que nunca volverá a ser feliz. Transmite amargura y la incredulidad ante una despedida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -658,8 +658,8 @@
       "pista": 11,
       "total_pistas": 11,
       "cancion": "Amor Para Los Dos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Recuerda la noche tibia en que la conoció y se enamoró al instante; sus ojos, brillantes como la luna en el mar, le dijeron que ella sentía lo mismo. Transmite la ilusión y ternura de un amor correspondido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -742,8 +742,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "He Sido",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Balance de una vida: ha sido el ave que renace de las cenizas, el que tuvo que sufrir para aprender y llorar para reír, y un canto que quiso dar cariño a todos. Transmite madurez, gratitud y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -766,8 +766,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Tu Primera Vez",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él le habla a la mujer con quien vivió su primera vez: no quiere ser solo un momento en su vida, sino quedarse con ella para siempre. Transmite entrega, ternura y la promesa de un amor duradero.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -946,8 +946,8 @@
       "pista": 4,
       "total_pistas": 12,
       "cancion": "Reina Mía",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Bolero en que él no sabe cómo expresar un amor que le da la vida, pero tiembla y llora con solo pensar que ella pueda abandonarlo. Transmite devoción y angustia al mismo tiempo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1234,8 +1234,8 @@
       "pista": 6,
       "total_pistas": 12,
       "cancion": "Nunca Sabrán",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Todos critican su relación y dicen que el pasado de ella es un lío, pero él la defiende: nadie sabrá lo que es amar así y tener por fin alguien por quien vivir. Transmite un amor desafiante frente a los prejuicios.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1462,8 +1462,8 @@
       "pista": 3,
       "total_pistas": 12,
       "cancion": "Se Agradecerá",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él le pide a la persona amada que convierta sus graves errores en amores y su noche oscura en luz, y promete agradecérselo siempre. Transmite humildad y la esperanza de redimirse por amor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1618,8 +1618,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Amor Mío",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "El rostro de ella delata su amor, y él le pide que no lo diga en voz alta para no llorar de felicidad ni despertar envidias: prefiere vivirlo en la intimidad. Transmite plenitud y un amor discreto.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1630,8 +1630,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "En Una Tarde de Verano",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él vuelve a la casa de playa de su infancia para reencontrar sus recuerdos, pero las casas y la gente ya no son las mismas. Transmite nostalgia y la aceptación de que el pasado no regresa.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1858,8 +1858,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "Por Este Amor Que Siento En Mí",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Por celos, caprichos y miedo a perdonar, él pierde a quien ama y muere en silencio por no atreverse a gritar «te quiero». Transmite arrepentimiento y una reflexión sobre cómo la duda destruye el amor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1870,8 +1870,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Volverás, Volverás",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Aunque le digan que ella ya no está, él insiste en que volverá, y entonces el mundo muerto empezará a girar y lloverá sobre sus desiertos. Transmite una esperanza obstinada, con imágenes muy poéticas.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1894,8 +1894,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Si Estás Enamorada (Aleluya)",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él descubre en una joven las señales del primer amor: un libro de versos en la mesa, un peinado nuevo, color en las mejillas y la niñez que se queda atrás. Transmite ternura y celebración.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1906,8 +1906,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Sabrás Que Te Quiero",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Lejos de ella, él promete que algún día sabrá cuánto la quiere: nunca lloró como la noche en que le dijo adiós y desea volver a su lado. Transmite añoranza y un amor que pide otra oportunidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1918,8 +1918,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "Pobre de Mí",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Súplica desesperada: si ella se va, él quedará en sombras, el sol se esconderá, no habrá mañana y morirá de pena. Transmite dependencia amorosa y el miedo total a la pérdida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1930,8 +1930,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Todo Es Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Canción luminosa que ve amor en todo: un amanecer, el canto de la lluvia, la luna sobre el mar y la sonrisa de la persona amada. Transmite alegría sencilla y plenitud.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -1966,8 +1966,8 @@
       "pista": 2,
       "total_pistas": 10,
       "cancion": "En Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él besó muchos rostros sin ser feliz, hasta que con ella aprendió que el amor no es la piel; todo lo que antes soñaba, ahora lo tiene en ella. Transmite plenitud y un amor que va más allá de lo físico.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2002,8 +2002,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Déjame Volver",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Tras la separación, él pide volver a su cuerpo, a sus mañanas y a sus caminos, y ser otra vez parte de su tiempo, como antes. Transmite deseo, nostalgia y una súplica de reconciliación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2050,8 +2050,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "Ese Hombre Sin Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él ve que ella florece, enamorada de otro, mientras a él se le acabó la historia; al fin entiende quién es ese hombre sin ella: una persona cualquiera. Transmite resignación y una tristeza lúcida.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2062,8 +2062,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Quisiera Ser",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él quisiera ser el primer motivo de la vida de ella: su canción favorita, su sombra, el libro que la acompaña desde niña. Transmite devoción tierna y el deseo de ocupar un lugar en su mundo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2242,8 +2242,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Tan Cerca... Tan Lejos",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "La tragedia de amar en silencio: cerca de ella en los sueños de cada noche, lejos cada día porque ella no lo espera ni sabe que la ama. Transmite angustia y un amor no confesado.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2266,8 +2266,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Paloma (Cada Mañana Que Te Vas)",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Cada mañana que ella se va, él teme no volver a tenerla; solo revive cuando regresa. Ella es su dicha y su dolor, la razón de su existencia. Transmite dependencia, deseo y miedo al olvido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2278,8 +2278,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "Candilejas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Versión en español del tema de la película «Candilejas» de Chaplin: ella llegó joven, como luz de abril, cuando él ya era tarde gris y se despedía. Transmite melancolía y gratitud por un amor tardío.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2326,8 +2326,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "En Las Puertas Del Colegio",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él recuerda cuando esperaba a su novia en las puertas del colegio y ella le decía con los ojos cuánto lo quería; hoy sabe que la perdió por su culpa. Transmite nostalgia juvenil y arrepentimiento.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2362,8 +2362,8 @@
       "pista": 4,
       "total_pistas": 10,
       "cancion": "Otro Día Sin Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Cuenta los días sin el sol de sus ojos ni el calor de sus besos, clavado en una «cruz de espera» sin saber cuántos faltan. Transmite soledad y una espera que se vuelve sufrimiento.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2374,8 +2374,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Verte a Ti",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Después de que la vida lo golpeó sin piedad, verla a ella es volver a la vida, volver a nacer y encontrar su religión. Transmite renacimiento y adoración por la persona amada.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2386,8 +2386,8 @@
       "pista": 6,
       "total_pistas": 10,
       "cancion": "Nuestro Amor Es El Más Bello",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Celebración alegre de un amor que lo hace mejor persona y resuelve sus problemas; promete estar siempre ahí cuando ella lo necesite. Transmite felicidad, complicidad y apoyo mutuo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2422,8 +2422,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "San Blas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Paseando por la orilla del mar en el puerto de San Blas, entre pescadores y gaviotas, él siente la ausencia de la persona amada hasta que el mar y la luna lo arrullan. Transmite una nostalgia serena.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2434,8 +2434,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Mírame",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él pide que lo miren: perdió la timidez, camina con firmeza y sabe a dónde va, porque está enamorado. Transmite seguridad, optimismo y la confianza que da el amor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2494,8 +2494,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Toda Mía",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él ama a una mujer que está con otro y se niega a seguir aceptando migajas: la quiere toda suya, sin trampas, sin secretos ni espías. Transmite deseo, orgullo y el hartazgo de un amor compartido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2530,8 +2530,8 @@
       "pista": 8,
       "total_pistas": 10,
       "cancion": "¿Y Qué?",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él lo dio todo: fue su abrigo, su almohada y su escalón, y ella se fue sin dar nada ni preguntar por qué lloraba. Transmite reproche, decepción y el dolor de un amor no correspondido.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -2674,8 +2674,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "Yo",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Autorretrato de un hombre que vive a galope, que se cae y se levanta, que prefiere dar que recibir y no se rinde jamás; sentimental y sin vergüenza de serlo. Transmite fuerza, orgullo y vitalidad.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3022,8 +3022,8 @@
       "pista": 9,
       "total_pistas": 11,
       "cancion": "Te Doy Dos Horas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Bolero de Álvaro Carrillo: ella le prometió el cielo y la luna y no cumplió nada, así que él le da un plazo: dos horas para llenar su vida de amor. Transmite despecho con dignidad y un toque de humor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3046,8 +3046,8 @@
       "pista": 11,
       "total_pistas": 11,
       "cancion": "Amor Mío",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Bolero de Álvaro Carrillo: el rostro de ella delata su amor, y él le pide que no lo diga para no llorar de felicidad ni despertar envidias; prefiere vivirlo en la intimidad. Transmite plenitud y un amor discreto.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3082,8 +3082,8 @@
       "pista": 3,
       "total_pistas": 11,
       "cancion": "Él",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre ve cómo otro, «el intruso, el ladrón», le roba las caricias de su pareja y la va apartando de su vida mientras ella lo permite. Transmite celos, impotencia y dolor ante la traición.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3118,8 +3118,8 @@
       "pista": 6,
       "total_pistas": 11,
       "cancion": "Punto Final",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él se niega a rendir cuentas ante nadie, porque nadie está libre de culpa, y anuncia que puso punto final al alcohol, ese vicio que «tuvo cara, sabor y piel de mujer». Transmite orgullo y liberación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3166,8 +3166,8 @@
       "pista": 10,
       "total_pistas": 11,
       "cancion": "Una Amable Aventura",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Tras un encuentro pasajero, él le dice que no se avergüence: no fue amor sino deseo, una amable aventura que quizá algún día recuerde con emoción. Transmite sensualidad y una mirada adulta, sin culpas.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3214,8 +3214,8 @@
       "pista": 3,
       "total_pistas": 11,
       "cancion": "Pequeñas Grandes Cosas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Una lista de pequeños placeres de la vida en pareja: velitas de aniversario, un café al despertar, los zapatos puestos a secar, discutir como niños. Transmite gratitud por lo cotidiano y un amor tranquilo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3226,8 +3226,8 @@
       "pista": 4,
       "total_pistas": 11,
       "cancion": "Un Hotel En Vez de Corazón",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Con humor, él confiesa que tiene «un hotel en vez de corazón»: no es fiel a una sola mujer ni pretende ser ejemplo de moral, aunque también desearía un solo amor. Transmite picardía y una confesión sincera.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3262,8 +3262,8 @@
       "pista": 7,
       "total_pistas": 11,
       "cancion": "Ni Me Lo Digas",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él sospecha que ella encontró a otro y le pide que no se lo diga: prefiere ignorarlo, aunque por dentro lo destroce. Transmite dolor, miedo a la verdad y un amor que se resiste a soltar.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3286,8 +3286,8 @@
       "pista": 9,
       "total_pistas": 11,
       "cancion": "Esa Mujer",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él empezó desde abajo y sufrió traiciones de amigos y de gente que lo quiso usar, pero conserva la confianza porque una mujer lo ama y le dio fuerza para luchar. Transmite gratitud y superación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3442,8 +3442,8 @@
       "pista": 1,
       "total_pistas": 10,
       "cancion": "Grandeza Mexicana",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Tras perder a su amor, él se hundió y buscó ayuda en vano, hasta que la gente y la patria mexicana le tendieron la mano. Transmite gratitud y un homenaje cálido al pueblo mexicano.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3466,8 +3466,8 @@
       "pista": 3,
       "total_pistas": 10,
       "cancion": "La Fuerza de La Sangre",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un padre le habla a su hijo de hombre a hombre tras separarse de su madre: le pide perdón por el daño y le asegura que nada los separará, porque los une la fuerza de la sangre. Transmite amor paternal y reconciliación.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3490,8 +3490,8 @@
       "pista": 5,
       "total_pistas": 10,
       "cancion": "Te Quiero Joven",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Un hombre maduro le pide a su joven pareja que lo deje mirar el mundo a través de sus ojos y estrenar de nuevo el amor y la vida. Transmite deseo, renovación y la pasión entre dos edades.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3514,8 +3514,8 @@
       "pista": 7,
       "total_pistas": 10,
       "cancion": "José y Manuel",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Diálogo entre dos amigos, José y Manuel: saben que el amor es frágil como el cristal y siempre termina en llanto, pero aun así no dejan de enamorarse. Transmite humor, resignación y debilidad por el amor.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3538,8 +3538,8 @@
       "pista": 9,
       "total_pistas": 10,
       "cancion": "No Existe La Experiencia En El Amor",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Él creía que en el amor sabe más quien más ha vivido, pero descubre que es mentira: al enamorarse, un niño o un pájaro saben amar igual que él. Transmite humildad y el asombro de volver a enamorarse.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3682,8 +3682,8 @@
       "pista": 1,
       "total_pistas": 9,
       "cancion": "La Llamaban María",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Recuerda la noche de luna llena en que conoció en un baile a una mujer llamada María; al bailar con ella supo que había encontrado el amor que esperaba. Transmite alegría e ilusión de un flechazo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3706,8 +3706,8 @@
       "pista": 3,
       "total_pistas": 9,
       "cancion": "Distancia",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Carta de amor a una mujer lejana, a quien trata de «usted»: sin ella la casa no es la casa y el sol ya no es su sol. Transmite añoranza y el dolor de un amor separado por la distancia.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3730,8 +3730,8 @@
       "pista": 5,
       "total_pistas": 9,
       "cancion": "No Hay Otro Remedio",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Sobre lo difícil que es decir adiós: cuando el amor se va, de nada sirve querer olvidar y no queda otro remedio que llorar. Transmite tristeza y la aceptación del duelo.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3898,8 +3898,8 @@
       "pista": 10,
       "total_pistas": 10,
       "cancion": "¿Qué Ganaste Corazón? (con Juan Gabriel)",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "A dúo con Juan Gabriel, le hablan a un corazón que lo dio todo y perdió: le aconsejan llorar, no perdonar y buscar otro cariño. Transmite despecho y un consejo amargo, al estilo ranchero.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -3982,8 +3982,8 @@
       "pista": 7,
       "total_pistas": 12,
       "cancion": "Vuelvo a Sentir",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Cuando ella se va, él mira atrás y no ve a nadie; en la soledad vuelve a sentir la nostalgia del amor y las ganas de vivir y soñar. Transmite añoranza y un deseo renovado de amar.",
+      "estado": "interpretacion",
       "fuente": null
     },
     {
@@ -4042,8 +4042,8 @@
       "pista": 12,
       "total_pistas": 12,
       "cancion": "He Sido",
-      "descripcion": null,
-      "estado": "sin_datos",
+      "descripcion": "Balance de una vida: ha sido el ave que renace de las cenizas, el que tuvo que sufrir para aprender y llorar para reír, y un canto que quiso dar cariño a todos. Transmite madurez, gratitud y esperanza.",
+      "estado": "interpretacion",
       "fuente": null
     }
   ]
